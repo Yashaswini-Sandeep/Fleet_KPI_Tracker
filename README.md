@@ -1,7 +1,7 @@
 readme_content = """# Vessel Fleet Performance KPI Tracker
 
 A Python-based fleet analytics project simulating the day-to-day work of a
-Fleet Analytics & Performance team — covering multi-source data integration,
+Fleet Analytics & Performance team covering multi-source data integration,
 KPI monitoring, anomaly detection, and financial impact quantification.
 
 ---
@@ -9,8 +9,8 @@ KPI monitoring, anomaly detection, and financial impact quantification.
 ## Business Context
 
 Shipping companies like Hapag-Lloyd operate large fleets across global routes.
-Fleet performance data arrives from multiple internal systems — vessel operations,
-commercial finance, and maintenance — and must be reconciled before analysis.
+Fleet performance data arrives from multiple internal systems which are vessel operations,
+commercial finance, and maintenance and must be reconciled before analysis.
 Identifying underperforming voyages early and quantifying their financial impact
 is critical to cost control and operational efficiency.
 
@@ -59,7 +59,7 @@ opportunity** for the fleet.
 
 ## Dataset
 
-- **Source**: [Ship Performance Clustering Dataset — Kaggle](https://www.kaggle.com/datasets/jeleeladekunlefijabi/ship-performance-clustering-dataset)
+- **Source**: [Ship Performance Clustering Dataset: Kaggle](https://www.kaggle.com/datasets/jeleeladekunlefijabi/ship-performance-clustering-dataset)
 - **Records**: 2,736 voyages across 4 ship types
 - **Period**: June 2023 – June 2024
 - **Ship types**: Container Ship, Bulk Carrier, Tanker, Fish Carrier
@@ -110,8 +110,3 @@ Fleet_KPI_Tracker/
 5. View dashboard: open `dashboard/fleet_dashboard.html` in any browser
 6. View report: open `outputs/fleet_kpi_report.xlsx`
 """
-
-with open('../README.md', 'w', encoding='utf-8') as f:
-    f.write(readme_content)
-
-print("README.md written successfully.")
