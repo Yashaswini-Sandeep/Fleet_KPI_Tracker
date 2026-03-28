@@ -1,0 +1,976 @@
+Voyage_ID,Date,Ship_Type,Route_Type,Maintenance_Status,Anomaly_Type,Speed_Over_Ground_knots,Efficiency_nm_per_kWh,Operational_Cost_USD,Revenue_per_Voyage_USD,Excess_Cost_USD,Lost_Revenue_USD
+1,2023-06-04,Container Ship,Unknown,Critical,"Low Efficiency, High Cost",12.6,1.46,483832.35,292183.27,229766.99,223498.71
+2,2023-06-11,Fish Carrier,Short-haul,Good,"High Cost, Speed Deviation",10.39,0.29,483388.0,883765.79,229322.63,0.0
+12,2023-08-20,Tanker,Transoceanic,Good,High Cost,18.25,1.23,481866.26,738063.17,227800.89,0.0
+13,2023-08-27,Container Ship,Short-haul,Good,"High Cost, Speed Deviation",10.23,0.58,481846.66,738287.28,227781.29,0.0
+23,2023-11-05,Unknown,Coastal,Good,High Cost,18.75,0.93,14878.15,902159.37,-239187.21,0.0
+24,2023-11-12,Container Ship,Coastal,Good,"Low Efficiency, High Cost",15.23,0.18,471255.43,880435.93,217190.06,0.0
+30,2023-12-24,Fish Carrier,Transoceanic,Fair,Speed Deviation,11.02,1.0,221816.83,990098.8,-32248.53,0.0
+31,2023-12-31,Fish Carrier,Long-haul,Good,High Cost,15.96,0.79,470099.75,744680.6,216034.38,0.0
+32,2024-01-07,Fish Carrier,Long-haul,Good,Low Efficiency,21.43,0.16,280960.71,996686.22,26895.34,0.0
+34,2024-01-21,Tanker,Transoceanic,Good,Low Efficiency,14.49,0.16,297388.48,929996.61,43323.11,0.0
+35,2024-01-28,Tanker,Short-haul,Critical,High Cost,23.29,0.81,33681.76,896032.71,-220383.61,0.0
+36,2024-02-04,Container Ship,Coastal,Fair,Speed Deviation,10.2,1.03,308742.11,311763.56,54676.74,203918.43
+40,2024-03-03,Fish Carrier,Short-haul,Good,Speed Deviation,24.27,0.23,282347.8,432936.01,28282.43,82745.98
+45,2024-04-07,Container Ship,Transoceanic,Good,High Cost,16.01,0.83,492122.24,884546.05,238056.87,0.0
+51,2024-05-19,Bulk Carrier,Long-haul,Good,Low Efficiency,22.81,1.48,390326.5,886689.17,136261.13,0.0
+52,2024-05-26,Tanker,Transoceanic,Fair,Speed Deviation,24.14,0.51,131593.85,999805.85,-122471.51,0.0
+56,2024-06-23,Bulk Carrier,Short-haul,Fair,"Low Efficiency, High Cost",23.09,0.11,477292.64,664940.15,223227.28,0.0
+60,2023-06-18,Container Ship,Transoceanic,Critical,High Cost,16.21,0.83,42536.21,901048.71,-211529.16,0.0
+66,2023-07-30,Fish Carrier,Long-haul,Good,Speed Deviation,24.11,0.95,227391.74,418596.24,-26673.62,97085.74
+68,2023-08-13,Container Ship,Short-haul,Good,Speed Deviation,10.33,1.18,362368.26,378330.21,108302.89,137351.77
+71,2023-09-03,Bulk Carrier,Short-haul,Fair,Speed Deviation,24.61,0.7,279592.02,349190.14,25526.65,166491.84
+73,2023-09-17,Tanker,Short-haul,Critical,Speed Deviation,10.86,0.31,224166.48,568594.29,-29898.88,0.0
+75,2023-10-01,Bulk Carrier,Transoceanic,Critical,Low Efficiency,22.95,0.19,93327.18,652250.19,-160738.19,0.0
+76,2023-10-08,Container Ship,Long-haul,Fair,Speed Deviation,24.07,0.24,173623.45,774411.26,-80441.92,0.0
+78,2023-10-22,Tanker,Long-haul,Critical,Low Efficiency,21.46,0.1,255586.39,58692.72,1521.02,456989.26
+83,2023-11-26,Tanker,Coastal,Critical,Speed Deviation,24.76,1.13,112084.17,478315.99,-141981.2,37365.99
+85,2023-12-10,Bulk Carrier,Coastal,Critical,High Cost,22.36,0.23,479544.38,386796.78,225479.02,128885.2
+86,2023-12-17,Tanker,Short-haul,Fair,Speed Deviation,10.92,0.67,297949.64,78856.65,43884.27,436825.34
+92,2024-01-28,Fish Carrier,Long-haul,Critical,High Cost,22.53,1.31,488014.68,947163.63,233949.32,0.0
+99,2024-03-17,Container Ship,Short-haul,Fair,Speed Deviation,24.38,1.07,80992.02,940714.96,-173073.35,0.0
+100,2024-03-24,Container Ship,Coastal,Critical,Low Efficiency,22.06,0.11,47178.5,854895.25,-206886.86,0.0
+102,2024-04-07,Tanker,Long-haul,Critical,Low Efficiency,18.08,0.11,157178.51,264282.76,-96886.86,251399.22
+111,2024-06-09,Tanker,Short-haul,Fair,Low Efficiency,11.21,0.18,171501.06,530056.53,-82564.31,0.0
+112,2024-06-16,Fish Carrier,Long-haul,Fair,High Cost,21.61,1.29,12427.64,455885.9,-241637.73,59796.08
+116,2023-06-11,Tanker,Long-haul,Good,Low Efficiency,23.61,1.46,72545.92,341953.86,-181519.45,173728.12
+125,2023-08-13,Fish Carrier,Long-haul,Critical,High Cost,17.3,1.36,35043.77,141088.69,-219021.6,374593.3
+127,2023-08-27,Bulk Carrier,Long-haul,Good,Speed Deviation,10.14,0.53,427354.19,93533.65,173288.83,422148.33
+132,2023-10-01,Tanker,Long-haul,Critical,"Low Efficiency, Speed Deviation",24.12,1.49,205599.94,290527.96,-48465.42,225154.02
+134,2023-10-15,Bulk Carrier,Unknown,Fair,High Cost,23.03,1.36,37419.93,70281.32,-216645.44,445400.66
+139,2023-11-19,Container Ship,Transoceanic,Critical,Speed Deviation,10.56,0.42,330241.9,438941.55,76176.53,76740.43
+141,2023-12-03,Tanker,Transoceanic,Fair,"Low Efficiency, High Cost",11.28,0.1,24831.52,270000.09,-229233.85,245681.89
+144,2023-12-24,Fish Carrier,Long-haul,Good,High Cost,11.83,1.12,43073.93,881888.87,-210991.43,0.0
+145,2023-12-31,Container Ship,Short-haul,Critical,Speed Deviation,24.87,0.37,415897.46,534037.73,161832.09,0.0
+147,2024-01-14,Bulk Carrier,Long-haul,Fair,"Low Efficiency, Speed Deviation",10.05,0.13,155668.68,132475.08,-98396.68,383206.9
+149,2024-01-28,Fish Carrier,Transoceanic,Fair,Low Efficiency,17.87,0.1,461947.15,449548.14,207881.79,66133.84
+152,2024-02-18,Bulk Carrier,Coastal,Fair,Speed Deviation,24.32,0.21,97009.66,983045.8,-157055.71,0.0
+155,2024-03-10,Tanker,Transoceanic,Good,Low Efficiency,21.64,0.11,338203.15,947650.24,84137.78,0.0
+162,2024-04-28,Unknown,Long-haul,Good,High Cost,20.67,1.39,15465.66,139354.89,-238599.71,376327.1
+165,2024-05-19,Tanker,Transoceanic,Critical,Speed Deviation,24.66,1.15,112767.02,591738.3,-141298.34,0.0
+172,2023-06-04,Bulk Carrier,Short-haul,Good,Low Efficiency,13.57,1.5,173412.39,511307.12,-80652.98,4374.86
+175,2023-06-25,Fish Carrier,Short-haul,Critical,Low Efficiency,22.63,0.13,353484.98,107431.27,99419.62,408250.71
+178,2023-07-16,Bulk Carrier,Transoceanic,Critical,High Cost,20.49,0.35,21419.48,604372.04,-232645.89,0.0
+179,2023-07-23,Fish Carrier,Short-haul,Good,Low Efficiency,17.81,1.45,88420.29,321282.63,-165645.08,194399.36
+185,2023-09-03,Tanker,Coastal,Good,Low Efficiency,14.16,0.19,364948.2,566426.08,110882.84,0.0
+189,2023-10-01,Tanker,Long-haul,Critical,Speed Deviation,24.16,0.68,455745.51,652650.67,201680.15,0.0
+190,2023-10-08,Fish Carrier,Transoceanic,Good,"High Cost, Speed Deviation",10.68,0.3,480979.67,499902.51,226914.31,15779.47
+192,2023-10-22,Bulk Carrier,Coastal,Critical,Low Efficiency,21.2,0.1,384714.6,461157.22,130649.24,54524.76
+193,2023-10-29,Unknown,Transoceanic,Critical,High Cost,22.43,0.39,493895.83,320893.27,239830.47,194788.71
+194,2023-11-05,Bulk Carrier,Short-haul,Good,Speed Deviation,10.4,1.1,183297.49,670517.63,-70767.87,0.0
+195,2023-11-12,Bulk Carrier,Coastal,Fair,Low Efficiency,23.82,0.18,239643.74,691542.02,-14421.63,0.0
+196,2023-11-19,Fish Carrier,Coastal,Critical,High Cost,23.95,1.31,471464.07,818414.9,217398.7,0.0
+197,2023-11-26,Unknown,Unknown,Unknown,Speed Deviation,11.12,0.2,317587.36,583011.75,63521.99,0.0
+198,2023-12-03,Bulk Carrier,Long-haul,Good,Speed Deviation,10.7,1.24,342498.8,357777.98,88433.43,157904.0
+199,2023-12-10,Unknown,Coastal,Fair,High Cost,12.26,1.2,28916.94,93070.13,-225148.43,422611.85
+200,2023-12-17,Bulk Carrier,Short-haul,Critical,Speed Deviation,24.42,0.99,410382.29,953567.37,156316.93,0.0
+202,2023-12-31,Tanker,Long-haul,Good,Speed Deviation,10.19,0.73,338954.6,88174.58,84889.23,427507.4
+203,2024-01-07,Unknown,Long-haul,Fair,Speed Deviation,24.48,0.31,153344.51,188972.41,-100720.86,326709.57
+209,2024-02-18,Fish Carrier,Transoceanic,Good,"Low Efficiency, Speed Deviation",25.0,1.48,164426.32,933017.47,-89639.05,0.0
+210,2024-02-25,Container Ship,Long-haul,Fair,Low Efficiency,15.48,0.18,60363.67,850656.09,-193701.7,0.0
+212,2024-03-10,Container Ship,Long-haul,Fair,Speed Deviation,10.61,1.14,280078.28,997181.65,26012.91,0.0
+214,2024-03-24,Bulk Carrier,Transoceanic,Fair,Low Efficiency,19.83,0.11,127673.05,176965.23,-126392.32,338716.75
+215,2024-03-31,Bulk Carrier,Long-haul,Fair,High Cost,22.21,0.32,33649.23,875400.41,-220416.14,0.0
+219,2024-04-28,Bulk Carrier,Coastal,Unknown,"High Cost, Speed Deviation",10.37,0.74,22233.31,956502.65,-231832.05,0.0
+222,2024-05-19,Bulk Carrier,Unknown,Critical,Low Efficiency,22.38,0.16,71402.35,690041.05,-182663.02,0.0
+224,2024-06-02,Fish Carrier,Coastal,Fair,Low Efficiency,14.22,0.13,225119.26,999811.93,-28946.1,0.0
+226,2024-06-16,Bulk Carrier,Long-haul,Fair,High Cost,20.58,1.08,43844.65,986244.92,-210220.72,0.0
+234,2023-07-09,Fish Carrier,Long-haul,Fair,High Cost,21.07,0.49,475646.95,411222.78,221581.58,104459.2
+238,2023-08-06,Fish Carrier,Coastal,Critical,High Cost,16.8,0.94,470657.71,711809.28,216592.35,0.0
+241,2023-08-27,Tanker,Coastal,Unknown,Speed Deviation,24.2,0.91,453704.08,939589.51,199638.71,0.0
+242,2023-09-03,Tanker,Short-haul,Fair,Low Efficiency,19.69,0.17,367330.95,797160.56,113265.58,0.0
+245,2023-09-24,Container Ship,Coastal,Critical,Speed Deviation,10.22,1.14,464464.5,382313.61,210399.13,133368.37
+246,2023-10-01,Tanker,Transoceanic,Good,Speed Deviation,24.73,1.24,424284.9,640327.21,170219.54,0.0
+254,2023-11-26,Bulk Carrier,Short-haul,Good,"Low Efficiency, Speed Deviation",10.99,1.46,403711.95,532047.81,149646.58,0.0
+255,2023-12-03,Container Ship,Short-haul,Critical,"High Cost, Speed Deviation",10.38,1.02,14690.67,404165.44,-239374.69,111516.54
+259,2023-12-31,Fish Carrier,Short-haul,Good,Speed Deviation,10.68,0.46,460969.33,171119.77,206903.96,344562.21
+260,2024-01-07,Fish Carrier,Short-haul,Good,Speed Deviation,24.78,1.05,258587.14,177985.81,4521.77,337696.17
+262,2024-01-21,Fish Carrier,Short-haul,Fair,High Cost,18.95,1.34,25005.55,568632.2,-229059.82,0.0
+263,2024-01-28,Container Ship,Long-haul,Good,High Cost,16.19,0.93,471660.38,604154.85,217595.02,0.0
+264,2024-02-04,Bulk Carrier,Coastal,Fair,High Cost,21.03,0.45,13240.29,470107.75,-240825.08,45574.24
+267,2024-02-25,Bulk Carrier,Coastal,Good,Low Efficiency,11.2,1.43,325380.58,204521.14,71315.21,311160.85
+269,2024-03-10,Bulk Carrier,Short-haul,Fair,Speed Deviation,24.29,0.78,169134.74,943255.28,-84930.63,0.0
+271,2024-03-24,Tanker,Coastal,Critical,Speed Deviation,10.47,0.54,328948.94,650038.99,74883.58,0.0
+273,2024-04-07,Fish Carrier,Long-haul,Fair,Speed Deviation,10.22,0.55,319676.74,942941.6,65611.37,0.0
+275,2024-04-21,Bulk Carrier,Long-haul,Critical,High Cost,22.48,0.95,466491.43,495615.42,212426.06,20066.56
+277,2024-05-05,Bulk Carrier,Coastal,Fair,Low Efficiency,11.54,1.47,390206.58,74469.87,136141.22,441212.11
+278,2024-05-12,Fish Carrier,Long-haul,Good,Speed Deviation,10.89,1.12,448659.84,382284.84,194594.47,133397.14
+279,2024-05-19,Fish Carrier,Transoceanic,Good,High Cost,20.92,0.39,20422.37,153335.73,-233643.0,362346.25
+281,2024-06-02,Tanker,Coastal,Critical,High Cost,16.79,1.23,475801.21,563864.17,221735.85,0.0
+283,2024-06-16,Fish Carrier,Transoceanic,Fair,Low Efficiency,17.97,0.11,352375.58,872456.93,98310.21,0.0
+284,2024-06-23,Fish Carrier,Long-haul,Good,High Cost,12.49,0.52,33022.2,807436.44,-221043.16,0.0
+285,2024-06-30,Fish Carrier,Long-haul,Unknown,Low Efficiency,13.46,1.5,59361.82,498065.45,-194703.55,17616.54
+288,2023-06-18,Bulk Carrier,Short-haul,Good,Speed Deviation,24.49,0.41,92445.83,166319.57,-161619.54,349362.42
+291,2023-07-09,Unknown,Coastal,Critical,High Cost,15.49,1.22,477256.23,474495.34,223190.86,41186.64
+296,2023-08-13,Tanker,Short-haul,Fair,Speed Deviation,10.15,1.17,327454.66,443749.89,73389.29,71932.09
+297,2023-08-20,Bulk Carrier,Short-haul,Good,High Cost,17.07,1.15,495353.26,128567.32,241287.89,387114.66
+298,2023-08-27,Tanker,Long-haul,Critical,"Low Efficiency, High Cost",21.1,0.19,33202.77,198655.87,-220862.6,317026.11
+299,2023-09-03,Bulk Carrier,Short-haul,Good,Speed Deviation,24.27,1.01,88524.69,902033.49,-165540.68,0.0
+302,2023-09-24,Fish Carrier,Unknown,Good,Speed Deviation,24.91,0.35,225447.84,987921.69,-28617.53,0.0
+304,2023-10-08,Tanker,Coastal,Good,Speed Deviation,10.12,1.07,294479.67,649419.53,40414.3,0.0
+306,2023-10-22,Unknown,Long-haul,Fair,Speed Deviation,24.87,1.15,326450.14,611157.14,72384.77,0.0
+308,2023-11-05,Bulk Carrier,Short-haul,Fair,High Cost,11.81,0.8,41656.88,332565.91,-212408.48,183116.07
+309,2023-11-12,Tanker,Short-haul,Fair,Low Efficiency,14.81,0.16,422001.98,957861.19,167936.62,0.0
+311,2023-11-26,Bulk Carrier,Long-haul,Good,Low Efficiency,23.93,1.44,418851.4,114144.89,164786.04,401537.09
+316,2023-12-31,Tanker,Short-haul,Fair,High Cost,23.79,0.88,479594.81,876137.98,225529.44,0.0
+317,2024-01-07,Bulk Carrier,Long-haul,Fair,Low Efficiency,16.37,0.12,411408.49,82118.79,157343.12,433563.19
+323,2024-02-18,Tanker,Coastal,Good,High Cost,16.39,0.61,10092.31,784232.75,-243973.06,0.0
+326,2024-03-10,Bulk Carrier,Short-haul,Fair,Speed Deviation,24.98,1.38,48178.44,527237.12,-205886.93,0.0
+327,2024-03-17,Fish Carrier,Coastal,Critical,Low Efficiency,21.86,1.48,181717.6,854444.08,-72347.77,0.0
+329,2024-03-31,Container Ship,Long-haul,Good,Speed Deviation,10.86,1.22,121596.15,141515.23,-132469.22,374166.76
+335,2024-05-12,Bulk Carrier,Short-haul,Unknown,Low Efficiency,24.06,1.44,104972.74,687887.79,-149092.63,0.0
+340,2024-06-16,Fish Carrier,Short-haul,Fair,"High Cost, Speed Deviation",11.09,1.04,477521.1,969441.02,223455.74,0.0
+341,2024-06-23,Fish Carrier,Long-haul,Fair,High Cost,12.48,1.05,468717.3,953222.65,214651.93,0.0
+343,2023-06-04,Container Ship,Short-haul,Good,Speed Deviation,24.48,1.4,375938.42,754507.81,121873.06,0.0
+352,2023-08-06,Tanker,Transoceanic,Critical,Low Efficiency,15.17,0.15,214210.12,593776.97,-39855.24,0.0
+354,2023-08-20,Tanker,Transoceanic,Critical,Speed Deviation,24.61,0.81,450880.79,298107.23,196815.42,217574.75
+361,2023-10-08,Tanker,Transoceanic,Good,"High Cost, Speed Deviation",10.77,0.23,43280.59,111012.07,-210784.77,404669.91
+362,2023-10-15,Tanker,Short-haul,Good,Speed Deviation,10.88,0.21,194293.95,387442.24,-59771.42,128239.74
+365,2023-11-05,Container Ship,Long-haul,Critical,Low Efficiency,14.44,1.5,122353.68,934588.08,-131711.68,0.0
+366,2023-11-12,Bulk Carrier,Coastal,Fair,Low Efficiency,19.44,1.44,432017.77,615360.16,177952.41,0.0
+367,2023-11-19,Bulk Carrier,Short-haul,Critical,"Low Efficiency, Speed Deviation",24.6,1.46,111107.19,916612.01,-142958.18,0.0
+368,2023-11-26,Bulk Carrier,Coastal,Critical,Speed Deviation,24.33,0.84,413944.88,57904.1,159879.51,457777.89
+373,2023-12-31,Fish Carrier,Long-haul,Good,Speed Deviation,10.64,0.41,289646.59,716862.18,35581.22,0.0
+374,2024-01-07,Bulk Carrier,Coastal,Good,Speed Deviation,10.52,1.29,251675.04,663243.69,-2390.33,0.0
+379,2024-02-11,Bulk Carrier,Coastal,Fair,Low Efficiency,15.88,1.43,46197.25,308317.39,-207868.12,207364.59
+384,2024-03-17,Fish Carrier,Coastal,Fair,Speed Deviation,24.91,0.58,196769.88,304471.67,-57295.49,211210.31
+385,2024-03-24,Fish Carrier,Transoceanic,Good,Low Efficiency,12.57,0.17,256504.87,435407.69,2439.51,80274.29
+386,2024-03-31,Bulk Carrier,Coastal,Critical,Speed Deviation,24.24,1.38,64915.25,77068.86,-189150.12,438613.12
+394,2024-05-26,Bulk Carrier,Long-haul,Fair,Speed Deviation,10.54,0.95,451748.91,708179.92,197683.54,0.0
+397,2024-06-16,Fish Carrier,Long-haul,Good,High Cost,12.62,0.97,486638.89,134185.97,232573.53,381496.01
+402,2023-06-18,Tanker,Short-haul,Critical,Speed Deviation,24.37,0.59,268663.67,403750.95,14598.3,111931.03
+403,2023-06-25,Fish Carrier,Transoceanic,Fair,Low Efficiency,22.49,1.43,251158.87,974721.03,-2906.49,0.0
+407,2023-07-23,Bulk Carrier,Transoceanic,Good,Low Efficiency,19.24,1.42,281348.82,822099.79,27283.45,0.0
+408,2023-07-30,Bulk Carrier,Long-haul,Critical,"Low Efficiency, High Cost",11.37,0.1,28867.78,586469.89,-225197.58,0.0
+409,2023-08-06,Bulk Carrier,Coastal,Unknown,Low Efficiency,23.09,1.41,271119.04,339671.35,17053.67,176010.63
+410,2023-08-13,Bulk Carrier,Short-haul,Critical,Speed Deviation,10.68,0.53,359151.68,539673.66,105086.32,0.0
+413,2023-09-03,Bulk Carrier,Short-haul,Fair,"Low Efficiency, High Cost",23.95,1.46,11993.79,121046.18,-242071.58,394635.8
+415,2023-09-17,Tanker,Long-haul,Good,High Cost,20.15,0.31,34161.62,651811.86,-219903.75,0.0
+427,2023-12-10,Bulk Carrier,Short-haul,Fair,Low Efficiency,17.57,1.44,123257.29,175370.02,-130808.08,340311.96
+431,2024-01-07,Fish Carrier,Short-haul,Fair,"High Cost, Speed Deviation",24.51,0.59,498514.41,173802.06,244449.04,341879.93
+433,2024-01-21,Tanker,Coastal,Good,Low Efficiency,21.92,1.46,286191.5,355263.52,32126.13,160418.46
+435,2024-02-04,Bulk Carrier,Transoceanic,Unknown,Low Efficiency,20.41,1.45,411934.27,982754.56,157868.91,0.0
+436,2024-02-11,Tanker,Long-haul,Critical,"Low Efficiency, High Cost",11.5,1.45,35057.23,264398.29,-219008.14,251283.7
+437,2024-02-18,Fish Carrier,Coastal,Fair,Speed Deviation,11.11,1.26,301308.61,320266.24,47243.24,195415.74
+439,2024-03-03,Tanker,Transoceanic,Good,Low Efficiency,17.13,0.16,456353.69,297444.2,202288.32,218237.79
+447,2024-04-28,Fish Carrier,Coastal,Fair,"Low Efficiency, High Cost",17.04,1.47,471707.45,710643.9,217642.08,0.0
+448,2024-05-05,Tanker,Transoceanic,Critical,High Cost,21.44,1.22,33208.56,646160.62,-220856.81,0.0
+450,2024-05-19,Fish Carrier,Long-haul,Fair,Speed Deviation,10.13,1.24,226746.08,860720.64,-27319.28,0.0
+451,2024-05-26,Container Ship,Coastal,Fair,Speed Deviation,24.71,0.59,85145.36,241754.86,-168920.0,273927.13
+459,2023-06-18,Fish Carrier,Coastal,Good,High Cost,21.25,0.5,466482.43,320583.94,212417.06,195098.04
+467,2023-08-13,Container Ship,Long-haul,Good,High Cost,17.86,0.41,497045.5,731928.42,242980.14,0.0
+468,2023-08-20,Fish Carrier,Transoceanic,Critical,Speed Deviation,24.29,0.25,376389.97,689364.24,122324.6,0.0
+470,2023-09-03,Tanker,Unknown,Good,High Cost,14.75,0.52,480476.94,999423.86,226411.58,0.0
+472,2023-09-17,Unknown,Transoceanic,Good,Speed Deviation,24.65,1.35,166102.37,706437.45,-87963.0,0.0
+475,2023-10-08,Tanker,Long-haul,Fair,Speed Deviation,24.84,0.58,58285.21,706414.03,-195780.16,0.0
+476,2023-10-15,Tanker,Transoceanic,Fair,"Low Efficiency, High Cost",11.35,0.16,495669.86,897782.8,241604.5,0.0
+477,2023-10-22,Unknown,Short-haul,Critical,High Cost,14.27,0.85,490674.6,773597.31,236609.24,0.0
+482,2023-11-26,Container Ship,Transoceanic,Critical,Low Efficiency,12.97,0.19,287075.6,258543.63,33010.23,257138.35
+484,2023-12-10,Fish Carrier,Long-haul,Critical,Low Efficiency,23.45,1.48,115935.62,824991.41,-138129.75,0.0
+488,2024-01-07,Unknown,Coastal,Good,Speed Deviation,10.95,1.18,390291.3,144064.14,136225.94,371617.84
+489,2024-01-14,Fish Carrier,Long-haul,Fair,Low Efficiency,17.94,1.49,232778.36,121407.47,-21287.01,394274.51
+490,2024-01-21,Bulk Carrier,Unknown,Critical,High Cost,18.62,0.9,42919.54,855357.82,-211145.83,0.0
+491,2024-01-28,Bulk Carrier,Long-haul,Unknown,Low Efficiency,20.85,0.12,446566.32,930676.82,192500.95,0.0
+494,2024-02-18,Fish Carrier,Transoceanic,Unknown,Low Efficiency,18.35,0.18,452861.54,532286.04,198796.18,0.0
+496,2024-03-03,Bulk Carrier,Transoceanic,Fair,Speed Deviation,24.94,0.21,219751.86,808051.6,-34313.51,0.0
+499,2024-03-24,Fish Carrier,Coastal,Critical,Low Efficiency,16.49,1.41,261063.39,404329.81,6998.02,111352.17
+500,2024-03-31,Container Ship,Transoceanic,Good,High Cost,15.44,0.87,10411.86,116607.35,-243653.51,399074.64
+504,2024-04-28,Fish Carrier,Long-haul,Fair,Speed Deviation,10.1,0.5,160405.02,735095.61,-93660.35,0.0
+505,2024-05-05,Tanker,Short-haul,Good,High Cost,23.48,0.22,471567.5,289056.24,217502.13,226625.74
+506,2024-05-12,Bulk Carrier,Short-haul,Critical,Low Efficiency,18.11,0.11,284375.84,772404.43,30310.47,0.0
+507,2024-05-19,Fish Carrier,Transoceanic,Critical,Low Efficiency,15.82,0.19,105459.96,637610.08,-148605.41,0.0
+511,2024-06-16,Container Ship,Transoceanic,Fair,Low Efficiency,13.25,1.4,108554.68,956636.48,-145510.68,0.0
+520,2023-07-16,Container Ship,Transoceanic,Critical,Low Efficiency,14.54,0.18,283270.48,336037.59,29205.11,179644.39
+527,2023-09-03,Container Ship,Long-haul,Critical,"High Cost, Speed Deviation",10.44,0.64,12619.21,989787.61,-241446.16,0.0
+530,2023-09-24,Container Ship,Coastal,Good,High Cost,20.08,0.44,476810.27,692137.86,222744.9,0.0
+532,2023-10-08,Fish Carrier,Coastal,Good,"Low Efficiency, High Cost, Speed Deviation",10.99,0.17,12000.36,838959.97,-242065.01,0.0
+534,2023-10-22,Container Ship,Long-haul,Good,High Cost,18.21,0.83,479278.13,725515.72,225212.77,0.0
+535,2023-10-29,Container Ship,Transoceanic,Good,High Cost,21.47,0.61,30284.16,546167.3,-223781.21,0.0
+537,2023-11-12,Container Ship,Short-haul,Good,"High Cost, Speed Deviation",24.2,0.88,488747.75,919342.14,234682.38,0.0
+541,2023-12-10,Tanker,Transoceanic,Good,"Low Efficiency, High Cost",16.09,0.18,497980.41,720587.73,243915.05,0.0
+542,2023-12-17,Fish Carrier,Coastal,Good,"Low Efficiency, Speed Deviation",11.03,0.11,67038.63,413173.63,-187026.74,102508.35
+545,2024-01-07,Tanker,Coastal,Critical,Low Efficiency,19.97,1.49,227368.76,54936.89,-26696.6,460745.09
+546,2024-01-14,Bulk Carrier,Short-haul,Fair,High Cost,15.27,1.2,29267.38,661119.64,-224797.98,0.0
+547,2024-01-21,Container Ship,Short-haul,Critical,"Low Efficiency, Speed Deviation",10.29,1.41,433801.16,889517.39,179735.8,0.0
+549,2024-02-04,Container Ship,Transoceanic,Unknown,Low Efficiency,22.74,0.12,365679.84,544371.8,111614.47,0.0
+550,2024-02-11,Container Ship,Short-haul,Fair,Speed Deviation,24.78,0.37,428270.34,161766.31,174204.97,353915.67
+551,2024-02-18,Bulk Carrier,Transoceanic,Fair,High Cost,14.91,0.44,42218.82,463045.54,-211846.55,52636.44
+553,2024-03-03,Container Ship,Coastal,Good,"High Cost, Speed Deviation",24.67,0.95,43257.16,116448.88,-210808.21,399233.1
+556,2024-03-24,Container Ship,Short-haul,Critical,High Cost,21.11,0.94,468064.76,102578.29,213999.4,413103.7
+558,2024-04-07,Container Ship,Transoceanic,Fair,Low Efficiency,19.45,0.18,285691.27,461402.57,31625.91,54279.41
+559,2024-04-14,Container Ship,Transoceanic,Good,Speed Deviation,10.48,0.59,207992.79,717045.1,-46072.57,0.0
+560,2024-04-21,Tanker,Transoceanic,Fair,Low Efficiency,16.97,1.49,44815.47,799858.14,-209249.9,0.0
+562,2024-05-05,Tanker,Coastal,Good,Speed Deviation,24.41,1.32,71308.51,377198.66,-182756.85,138483.32
+563,2024-05-12,Container Ship,Coastal,Good,High Cost,23.13,0.49,498660.37,371393.34,244595.01,144288.64
+566,2024-06-02,Tanker,Long-haul,Critical,Low Efficiency,15.57,0.18,252689.21,123254.03,-1376.15,392427.95
+568,2024-06-16,Fish Carrier,Coastal,Fair,High Cost,11.64,0.7,474679.98,393290.69,220614.62,122391.29
+569,2024-06-23,Tanker,Coastal,Critical,Low Efficiency,21.49,0.11,258292.29,690111.8,4226.92,0.0
+570,2024-06-30,Bulk Carrier,Long-haul,Critical,Low Efficiency,22.41,1.41,59095.38,321880.6,-194969.99,193801.38
+574,2023-06-25,Tanker,Coastal,Fair,Low Efficiency,16.94,1.43,98053.82,314119.26,-156011.54,201562.72
+575,2023-07-02,Container Ship,Long-haul,Fair,Low Efficiency,14.86,1.42,410475.9,761935.56,156410.53,0.0
+576,2023-07-09,Bulk Carrier,Short-haul,Good,Speed Deviation,24.65,0.96,380656.09,877314.27,126590.72,0.0
+578,2023-07-23,Tanker,Short-haul,Critical,"High Cost, Speed Deviation",24.16,0.62,498479.59,197506.54,244414.22,318175.44
+581,2023-08-13,Bulk Carrier,Transoceanic,Fair,Speed Deviation,24.8,0.38,58860.87,808180.17,-195204.49,0.0
+586,2023-09-17,Tanker,Short-haul,Good,"Low Efficiency, Speed Deviation",10.62,0.16,462821.75,272431.86,208756.38,243250.12
+589,2023-10-08,Container Ship,Coastal,Fair,"Low Efficiency, High Cost, Speed Deviation",24.42,1.48,19119.14,152357.24,-234946.23,363324.74
+591,2023-10-22,Fish Carrier,Coastal,Fair,High Cost,18.9,0.59,21712.17,962568.19,-232353.2,0.0
+592,2023-10-29,Tanker,Coastal,Good,Speed Deviation,24.88,0.69,424693.75,749022.45,170628.38,0.0
+593,2023-11-05,Fish Carrier,Long-haul,Critical,Low Efficiency,23.71,1.41,120365.21,63909.41,-133700.16,451772.57
+599,2023-12-17,Tanker,Transoceanic,Good,High Cost,15.39,0.96,484025.3,963978.75,229959.93,0.0
+600,2023-12-24,Fish Carrier,Unknown,Good,High Cost,21.09,0.75,20780.98,515438.77,-233284.39,243.21
+601,2023-12-31,Tanker,Transoceanic,Fair,High Cost,17.01,1.38,477773.01,568133.92,223707.65,0.0
+603,2024-01-14,Tanker,Transoceanic,Good,Low Efficiency,18.71,0.18,423743.14,408878.4,169677.77,106803.58
+604,2024-01-21,Container Ship,Long-haul,Good,Speed Deviation,10.11,1.35,451108.39,650201.32,197043.02,0.0
+612,2024-03-17,Tanker,Transoceanic,Unknown,Speed Deviation,10.45,0.52,97632.83,243093.35,-156432.54,272588.63
+618,2024-04-28,Fish Carrier,Transoceanic,Good,Low Efficiency,13.51,1.45,413234.48,709311.33,159169.11,0.0
+621,2024-05-19,Bulk Carrier,Transoceanic,Good,"Low Efficiency, Speed Deviation",10.73,1.48,462897.78,916755.15,208832.42,0.0
+624,2024-06-09,Bulk Carrier,Transoceanic,Good,"Low Efficiency, High Cost",23.41,0.15,496101.62,846133.71,242036.25,0.0
+625,2024-06-16,Fish Carrier,Coastal,Good,Speed Deviation,24.23,1.02,204137.5,195198.9,-49927.86,320483.08
+626,2024-06-23,Unknown,Coastal,Critical,"Low Efficiency, High Cost",11.85,0.19,32545.64,829715.94,-221519.73,0.0
+628,2023-06-04,Bulk Carrier,Transoceanic,Critical,Low Efficiency,11.9,1.45,379311.37,448954.13,125246.01,66727.85
+632,2023-07-02,Bulk Carrier,Coastal,Critical,Low Efficiency,13.75,1.46,140067.06,633020.55,-113998.3,0.0
+635,2023-07-23,Bulk Carrier,Long-haul,Good,"Low Efficiency, Speed Deviation",24.6,0.18,304087.12,437723.38,50021.76,77958.6
+637,2023-08-06,Bulk Carrier,Coastal,Unknown,High Cost,12.21,0.43,484256.11,392054.5,230190.74,123627.48
+639,2023-08-20,Fish Carrier,Transoceanic,Critical,"High Cost, Speed Deviation",10.99,0.76,485992.56,875407.91,231927.19,0.0
+642,2023-09-10,Tanker,Long-haul,Good,Speed Deviation,24.84,0.99,253353.18,602844.86,-712.19,0.0
+643,2023-09-17,Container Ship,Long-haul,Fair,"Low Efficiency, High Cost",13.41,0.18,39590.45,748379.06,-214474.92,0.0
+644,2023-09-24,Bulk Carrier,Transoceanic,Critical,Low Efficiency,23.32,0.12,264110.57,982917.33,10045.2,0.0
+649,2023-10-29,Unknown,Short-haul,Critical,Speed Deviation,10.56,1.03,208357.4,867578.08,-45707.97,0.0
+651,2023-11-12,Bulk Carrier,Long-haul,Critical,Speed Deviation,10.54,1.3,173243.51,185005.16,-80821.85,330676.82
+653,2023-11-26,Container Ship,Long-haul,Critical,High Cost,17.73,0.22,480339.35,348700.01,226273.98,166981.97
+654,2023-12-03,Container Ship,Long-haul,Critical,Low Efficiency,16.49,0.13,403069.4,622512.43,149004.04,0.0
+656,2023-12-17,Tanker,Coastal,Fair,High Cost,12.41,0.63,22296.21,862101.81,-231769.16,0.0
+657,2023-12-24,Tanker,Transoceanic,Good,Speed Deviation,24.18,0.7,368449.55,421995.76,114384.19,93686.22
+661,2024-01-21,Bulk Carrier,Long-haul,Critical,Low Efficiency,17.14,1.42,376122.91,453249.23,122057.54,62432.76
+665,2024-02-18,Unknown,Long-haul,Fair,Speed Deviation,10.21,0.42,293171.41,844402.3,39106.04,0.0
+666,2024-02-25,Bulk Carrier,Short-haul,Good,Low Efficiency,21.44,1.42,420651.46,226159.7,166586.1,289522.28
+668,2024-03-10,Container Ship,Coastal,Good,Speed Deviation,24.33,1.4,88825.58,467933.05,-165239.78,47748.93
+670,2024-03-24,Container Ship,Transoceanic,Good,Speed Deviation,24.2,1.26,385399.46,385010.5,131334.09,130671.48
+671,2024-03-31,Container Ship,Transoceanic,Good,Speed Deviation,24.7,0.63,125553.39,213843.86,-128511.98,301838.12
+675,2024-04-28,Bulk Carrier,Transoceanic,Critical,High Cost,20.28,0.72,488685.89,157715.62,234620.53,357966.36
+678,2024-05-19,Container Ship,Short-haul,Good,Low Efficiency,19.53,1.42,127391.81,511803.65,-126673.55,3878.33
+686,2023-06-11,Tanker,Coastal,Fair,Speed Deviation,10.76,0.65,464084.87,207787.83,210019.51,307894.15
+687,2023-06-18,Tanker,Coastal,Good,High Cost,22.87,0.61,24143.06,66957.61,-229922.3,448724.37
+689,2023-07-02,Container Ship,Short-haul,Fair,High Cost,18.08,1.1,37766.1,298870.28,-216299.26,216811.7
+691,2023-07-16,Fish Carrier,Coastal,Good,Low Efficiency,12.59,1.41,165159.16,595029.92,-88906.21,0.0
+692,2023-07-23,Fish Carrier,Transoceanic,Unknown,High Cost,22.38,0.75,36299.04,277717.28,-217766.33,237964.71
+695,2023-08-13,Fish Carrier,Short-haul,Good,Low Efficiency,22.05,1.43,194031.6,679370.08,-60033.77,0.0
+697,2023-08-27,Tanker,Short-haul,Critical,High Cost,15.99,0.37,42623.2,212925.87,-211442.16,302756.11
+702,2023-10-01,Container Ship,Short-haul,Fair,Speed Deviation,10.37,1.19,333307.69,299628.74,79242.32,216053.25
+706,2023-10-29,Unknown,Coastal,Critical,High Cost,15.04,1.11,23319.53,921544.09,-230745.83,0.0
+713,2023-12-17,Container Ship,Short-haul,Fair,Speed Deviation,10.8,0.44,236765.0,156045.54,-17300.37,359636.45
+715,2023-12-31,Fish Carrier,Transoceanic,Fair,Speed Deviation,24.97,0.33,172666.9,265299.95,-81398.46,250382.03
+716,2024-01-07,Bulk Carrier,Transoceanic,Good,Speed Deviation,10.48,0.76,422350.85,302288.68,168285.48,213393.3
+717,2024-01-14,Tanker,Long-haul,Critical,Low Efficiency,13.42,1.5,390303.34,317274.77,136237.97,198407.21
+718,2024-01-21,Container Ship,Coastal,Fair,Speed Deviation,11.03,0.34,198856.73,244211.65,-55208.64,271470.33
+721,2024-02-11,Fish Carrier,Long-haul,Good,Low Efficiency,18.74,0.14,247605.45,662827.17,-6459.91,0.0
+722,2024-02-18,Tanker,Short-haul,Fair,Speed Deviation,24.56,0.61,83774.58,616885.76,-170290.79,0.0
+724,2024-03-03,Unknown,Long-haul,Good,Low Efficiency,21.09,1.47,132942.35,757049.83,-121123.02,0.0
+730,2024-04-14,Bulk Carrier,Short-haul,Critical,High Cost,18.72,1.33,486961.4,266967.16,232896.04,248714.82
+731,2024-04-21,Bulk Carrier,Short-haul,Fair,Low Efficiency,20.92,0.14,179889.15,793734.71,-74176.21,0.0
+732,2024-04-28,Bulk Carrier,Coastal,Good,Low Efficiency,21.92,1.44,388103.31,724006.78,134037.94,0.0
+733,2024-05-05,Unknown,Unknown,Critical,Low Efficiency,15.68,1.48,119648.69,496344.95,-134416.68,19337.03
+735,2024-05-19,Fish Carrier,Coastal,Critical,Low Efficiency,14.46,0.14,144692.38,985558.48,-109372.99,0.0
+738,2024-06-09,Fish Carrier,Transoceanic,Good,High Cost,11.82,0.82,471998.07,788990.46,217932.7,0.0
+739,2024-06-16,Tanker,Transoceanic,Fair,Low Efficiency,19.38,0.16,44666.65,363518.39,-209398.71,152163.59
+750,2023-07-30,Container Ship,Short-haul,Critical,"Low Efficiency, High Cost",15.7,0.17,484031.71,321469.99,229966.35,194212.0
+751,2023-08-06,Fish Carrier,Transoceanic,Critical,"Low Efficiency, High Cost",22.2,0.16,12087.71,105015.32,-241977.65,410666.66
+753,2023-08-20,Container Ship,Short-haul,Good,"Low Efficiency, High Cost",19.95,0.14,31328.64,600939.07,-222736.72,0.0
+755,2023-09-03,Tanker,Long-haul,Fair,"Low Efficiency, High Cost, Speed Deviation",24.72,0.15,499224.56,331167.79,245159.19,184514.2
+756,2023-09-10,Container Ship,Coastal,Fair,Speed Deviation,10.06,0.3,81720.8,884452.18,-172344.57,0.0
+761,2023-10-15,Container Ship,Transoceanic,Fair,High Cost,16.35,0.66,476918.62,487060.51,222853.26,28621.47
+768,2023-12-03,Bulk Carrier,Long-haul,Critical,Low Efficiency,21.98,1.45,76587.56,103885.04,-177477.81,411796.94
+770,2023-12-17,Fish Carrier,Transoceanic,Good,"Low Efficiency, Speed Deviation",10.64,0.13,304356.02,639284.33,50290.65,0.0
+771,2023-12-24,Bulk Carrier,Short-haul,Good,High Cost,21.57,0.4,18575.75,703556.35,-235489.61,0.0
+776,2024-01-28,Fish Carrier,Short-haul,Critical,Low Efficiency,20.6,1.42,228614.97,704618.2,-25450.4,0.0
+777,2024-02-04,Fish Carrier,Long-haul,Good,High Cost,18.16,1.01,494160.33,824387.03,240094.96,0.0
+779,2024-02-18,Tanker,Transoceanic,Fair,Speed Deviation,24.82,1.1,458479.06,950997.54,204413.7,0.0
+780,2024-02-25,Tanker,Coastal,Fair,Speed Deviation,24.74,0.22,175029.02,797597.08,-79036.34,0.0
+788,2024-04-21,Tanker,Transoceanic,Critical,Speed Deviation,24.38,1.28,107304.59,339716.01,-146760.77,175965.97
+790,2024-05-05,Fish Carrier,Long-haul,Critical,High Cost,15.44,0.78,479289.88,109356.92,225224.51,406325.06
+792,2024-05-19,Container Ship,Unknown,Fair,Low Efficiency,15.25,0.16,85286.64,611826.3,-168778.73,0.0
+797,2024-06-23,Fish Carrier,Short-haul,Critical,High Cost,13.59,0.44,498578.61,514359.0,244513.25,1322.98
+798,2024-06-30,Tanker,Short-haul,Good,High Cost,19.12,0.77,27512.71,742210.86,-226552.66,0.0
+805,2023-07-16,Bulk Carrier,Transoceanic,Critical,Low Efficiency,11.28,1.49,388393.28,261061.1,134327.92,254620.88
+806,2023-07-23,Container Ship,Transoceanic,Fair,Low Efficiency,22.41,1.48,408998.74,620316.55,154933.38,0.0
+809,2023-08-13,Tanker,Transoceanic,Good,High Cost,15.28,1.4,32565.28,247414.34,-221500.08,268267.64
+812,2023-09-03,Bulk Carrier,Coastal,Good,Speed Deviation,10.55,0.73,284851.76,196404.78,30786.4,319277.2
+814,2023-09-17,Container Ship,Long-haul,Fair,High Cost,18.35,0.24,474453.81,664994.27,220388.44,0.0
+818,2023-10-15,Tanker,Coastal,Critical,Speed Deviation,10.89,0.73,437270.36,893240.85,183205.0,0.0
+825,2023-12-03,Bulk Carrier,Transoceanic,Fair,"Low Efficiency, Speed Deviation",24.99,1.49,146820.63,99956.13,-107244.73,415725.85
+830,2024-01-07,Tanker,Coastal,Critical,Speed Deviation,24.68,0.23,339311.21,849512.78,85245.84,0.0
+833,2024-01-28,Container Ship,Transoceanic,Good,Low Efficiency,12.68,1.43,311632.19,587444.42,57566.82,0.0
+837,2024-02-25,Container Ship,Transoceanic,Good,"Low Efficiency, High Cost",22.1,1.44,13519.25,142194.1,-240546.12,373487.88
+842,2024-03-31,Tanker,Coastal,Fair,"Low Efficiency, High Cost",17.39,0.15,31485.94,247507.56,-222579.43,268174.42
+844,2024-04-14,Bulk Carrier,Long-haul,Fair,Speed Deviation,10.9,0.64,76555.8,532483.82,-177509.56,0.0
+845,2024-04-21,Bulk Carrier,Coastal,Good,Speed Deviation,24.49,0.38,58816.65,560366.56,-195248.72,0.0
+846,2024-04-28,Container Ship,Transoceanic,Fair,Speed Deviation,24.53,0.68,305043.9,353632.25,50978.53,162049.73
+848,2024-05-12,Unknown,Coastal,Fair,Low Efficiency,15.12,0.18,245598.53,711552.82,-8466.84,0.0
+850,2024-05-26,Fish Carrier,Transoceanic,Good,High Cost,16.42,0.45,484986.92,271349.5,230921.55,244332.48
+853,2024-06-16,Fish Carrier,Unknown,Good,High Cost,20.06,1.15,13636.55,216690.96,-240428.82,298991.02
+855,2024-06-30,Bulk Carrier,Long-haul,Critical,High Cost,11.58,1.21,17514.03,421700.27,-236551.34,93981.72
+856,2023-06-04,Container Ship,Short-haul,Critical,Low Efficiency,11.98,1.43,95776.56,555696.52,-158288.81,0.0
+862,2023-07-16,Tanker,Coastal,Good,High Cost,23.72,0.96,10814.51,50956.3,-243250.86,464725.68
+866,2023-08-13,Unknown,Transoceanic,Good,Speed Deviation,10.91,0.6,463150.15,819492.85,209084.78,0.0
+867,2023-08-20,Tanker,Short-haul,Fair,High Cost,14.84,0.6,27781.91,137032.52,-226283.45,378649.46
+869,2023-09-03,Fish Carrier,Long-haul,Critical,Speed Deviation,10.17,1.07,179970.03,823250.13,-74095.34,0.0
+871,2023-09-17,Container Ship,Short-haul,Fair,"Low Efficiency, High Cost",20.16,0.13,38608.98,67491.38,-215456.38,448190.6
+873,2023-10-01,Fish Carrier,Coastal,Fair,High Cost,18.44,0.61,41912.96,64295.7,-212152.41,451386.28
+874,2023-10-08,Tanker,Transoceanic,Critical,Speed Deviation,24.97,1.23,117938.53,882403.8,-136126.84,0.0
+876,2023-10-22,Tanker,Transoceanic,Fair,"High Cost, Speed Deviation",24.14,1.09,476966.74,501391.21,222901.37,14290.77
+877,2023-10-29,Container Ship,Transoceanic,Unknown,"High Cost, Speed Deviation",24.65,0.62,24382.71,423570.35,-229682.66,92111.63
+886,2023-12-31,Fish Carrier,Short-haul,Critical,Low Efficiency,14.17,0.14,142779.89,980301.0,-111285.47,0.0
+892,2024-02-11,Fish Carrier,Long-haul,Critical,High Cost,19.21,0.25,482516.49,968109.18,228451.13,0.0
+895,2024-03-03,Unknown,Coastal,Unknown,Low Efficiency,13.25,1.49,78712.3,227609.86,-175353.06,288072.12
+898,2024-03-24,Bulk Carrier,Transoceanic,Critical,High Cost,21.29,1.3,23545.64,786342.39,-230519.73,0.0
+901,2024-04-14,Tanker,Short-haul,Fair,Low Efficiency,12.45,0.16,106299.37,59094.81,-147766.0,456587.17
+902,2024-04-21,Container Ship,Transoceanic,Critical,High Cost,21.89,0.64,484247.98,104941.62,230182.61,410740.36
+903,2024-04-28,Fish Carrier,Transoceanic,Good,High Cost,23.89,0.24,495710.53,200766.04,241645.16,314915.94
+907,2024-05-26,Fish Carrier,Long-haul,Fair,Speed Deviation,24.74,1.33,186107.79,470884.3,-67957.58,44797.68
+909,2024-06-09,Container Ship,Long-haul,Fair,High Cost,16.05,0.55,19885.92,390055.33,-234179.45,125626.65
+912,2024-06-30,Bulk Carrier,Long-haul,Critical,Speed Deviation,10.44,0.53,392604.23,904897.12,138538.86,0.0
+917,2023-07-02,Tanker,Short-haul,Fair,High Cost,14.52,1.26,26973.32,203053.82,-227092.04,312628.16
+919,2023-07-16,Fish Carrier,Short-haul,Fair,Low Efficiency,19.67,1.42,46113.77,569135.81,-207951.59,0.0
+920,2023-07-23,Bulk Carrier,Long-haul,Fair,Low Efficiency,18.94,0.12,98715.09,990116.22,-155350.28,0.0
+922,2023-08-06,Bulk Carrier,Short-haul,Critical,Low Efficiency,20.81,1.44,178375.11,965654.97,-75690.26,0.0
+924,2023-08-20,Tanker,Coastal,Fair,"Low Efficiency, Speed Deviation",24.14,1.48,246983.72,76288.81,-7081.65,439393.17
+925,2023-08-27,Container Ship,Long-haul,Good,Low Efficiency,20.52,1.45,223042.42,441380.62,-31022.95,74301.36
+929,2023-09-24,Bulk Carrier,Long-haul,Fair,High Cost,20.91,0.26,25473.83,147656.44,-228591.53,368025.54
+930,2023-10-01,Container Ship,Short-haul,Fair,Speed Deviation,24.32,1.0,199299.72,565641.28,-54765.65,0.0
+931,2023-10-08,Fish Carrier,Long-haul,Fair,Low Efficiency,15.49,1.46,287913.38,923597.99,33848.01,0.0
+933,2023-10-22,Container Ship,Short-haul,Good,Low Efficiency,13.28,1.41,235641.73,202580.95,-18423.64,313101.03
+934,2023-10-29,Container Ship,Long-haul,Fair,Low Efficiency,18.74,0.18,181451.05,805722.47,-72614.32,0.0
+942,2023-12-24,Unknown,Coastal,Good,Speed Deviation,24.2,0.88,401113.3,294426.75,147047.94,221255.23
+944,2024-01-07,Fish Carrier,Transoceanic,Fair,Speed Deviation,10.67,0.82,126726.35,386330.65,-127339.01,129351.33
+946,2024-01-21,Bulk Carrier,Long-haul,Critical,High Cost,12.01,1.03,478080.7,682894.17,224015.33,0.0
+951,2024-02-25,Bulk Carrier,Transoceanic,Critical,Speed Deviation,10.94,0.27,417412.68,768741.04,163347.31,0.0
+953,2024-03-10,Fish Carrier,Transoceanic,Good,Speed Deviation,24.61,0.23,397275.61,735870.21,143210.24,0.0
+954,2024-03-17,Tanker,Coastal,Critical,Speed Deviation,24.93,0.63,261523.5,376520.07,7458.13,139161.91
+957,2024-04-07,Container Ship,Long-haul,Critical,Speed Deviation,24.23,0.4,64109.55,573623.1,-189955.82,0.0
+963,2024-05-19,Fish Carrier,Transoceanic,Unknown,High Cost,19.32,0.66,20070.24,472427.26,-233995.12,43254.72
+964,2024-05-26,Fish Carrier,Coastal,Critical,High Cost,17.29,0.39,468177.75,988552.09,214112.39,0.0
+965,2024-06-02,Container Ship,Coastal,Critical,Low Efficiency,14.93,0.14,46247.12,809941.35,-207818.25,0.0
+966,2024-06-09,Fish Carrier,Coastal,Critical,Low Efficiency,15.97,1.46,457643.51,307482.73,203578.14,208199.25
+967,2024-06-16,Tanker,Coastal,Fair,Speed Deviation,10.39,1.15,381791.7,702020.85,127726.34,0.0
+968,2024-06-23,Tanker,Coastal,Critical,High Cost,21.68,0.56,14904.08,460580.92,-239161.28,55101.06
+969,2024-06-30,Container Ship,Short-haul,Critical,Speed Deviation,24.57,0.53,369960.65,514451.75,115895.28,1230.23
+970,2023-06-04,Container Ship,Transoceanic,Critical,Low Efficiency,15.69,0.15,252261.69,874292.64,-1803.68,0.0
+973,2023-06-25,Tanker,Short-haul,Unknown,Speed Deviation,24.42,0.28,295797.8,72096.64,41732.44,443585.34
+974,2023-07-02,Container Ship,Short-haul,Critical,High Cost,21.26,1.04,476539.83,429845.03,222474.46,85836.96
+975,2023-07-09,Fish Carrier,Short-haul,Fair,Speed Deviation,10.39,1.15,267970.69,645481.89,13905.32,0.0
+977,2023-07-23,Fish Carrier,Coastal,Good,Low Efficiency,12.29,1.48,171926.63,509848.81,-82138.74,5833.17
+979,2023-08-06,Bulk Carrier,Long-haul,Fair,"High Cost, Speed Deviation",24.08,1.02,13822.16,909650.19,-240243.2,0.0
+981,2023-08-20,Fish Carrier,Long-haul,Unknown,Speed Deviation,24.85,0.5,190652.43,902604.0,-63412.94,0.0
+982,2023-08-27,Tanker,Short-haul,Critical,High Cost,14.03,0.37,469285.22,216159.47,215219.85,299522.51
+985,2023-09-17,Bulk Carrier,Long-haul,Good,High Cost,21.6,1.35,487884.81,298422.9,233819.44,217259.08
+987,2023-10-01,Container Ship,Coastal,Critical,High Cost,22.54,1.07,27481.57,774848.05,-226583.8,0.0
+988,2023-10-08,Tanker,Transoceanic,Critical,High Cost,19.22,0.4,474973.58,521866.78,220908.22,0.0
+990,2023-10-22,Tanker,Transoceanic,Critical,"Low Efficiency, Speed Deviation",10.84,0.16,156468.39,934842.9,-97596.97,0.0
+991,2023-10-29,Tanker,Short-haul,Fair,Speed Deviation,11.1,0.3,196907.41,421743.56,-57157.96,93938.42
+993,2023-11-12,Container Ship,Transoceanic,Critical,Low Efficiency,17.11,1.46,287945.03,130620.63,33879.66,385061.35
+997,2023-12-10,Container Ship,Long-haul,Fair,"Low Efficiency, High Cost",22.81,1.43,469926.11,588623.85,215860.75,0.0
+998,2023-12-17,Tanker,Long-haul,Good,Low Efficiency,20.96,0.11,251296.08,805147.77,-2769.29,0.0
+1004,2024-01-28,Fish Carrier,Coastal,Good,Low Efficiency,18.48,1.44,271304.87,216046.2,17239.5,299635.79
+1008,2024-02-25,Tanker,Long-haul,Fair,Speed Deviation,10.29,0.48,44243.34,945195.13,-209822.03,0.0
+1010,2024-03-10,Container Ship,Short-haul,Fair,Low Efficiency,22.65,0.12,282063.12,879082.15,27997.75,0.0
+1011,2024-03-17,Tanker,Coastal,Good,High Cost,12.95,0.46,498326.93,505387.98,244261.56,10294.0
+1014,2024-04-07,Tanker,Coastal,Fair,High Cost,21.23,1.2,19570.88,839377.44,-234494.49,0.0
+1018,2024-05-05,Bulk Carrier,Transoceanic,Critical,Low Efficiency,21.93,1.49,107336.3,646444.44,-146729.07,0.0
+1022,2024-06-02,Container Ship,Coastal,Fair,High Cost,15.56,1.06,493069.38,223380.71,239004.01,292301.27
+1025,2024-06-23,Bulk Carrier,Transoceanic,Critical,Low Efficiency,23.17,0.1,380592.7,826944.3,126527.33,0.0
+1026,2024-06-30,Fish Carrier,Short-haul,Good,Speed Deviation,24.46,0.38,177151.67,392969.82,-76913.69,122712.16
+1030,2023-06-25,Bulk Carrier,Short-haul,Fair,Low Efficiency,17.04,0.11,380020.6,769216.53,125955.23,0.0
+1031,2023-07-02,Container Ship,Short-haul,Fair,High Cost,21.41,0.4,481356.58,871128.52,227291.21,0.0
+1034,2023-07-23,Container Ship,Short-haul,Good,High Cost,12.68,1.26,499734.87,191987.95,245669.5,323694.03
+1037,2023-08-13,Tanker,Coastal,Fair,Speed Deviation,10.42,0.84,152270.27,125182.81,-101795.1,390499.17
+1041,2023-09-10,Container Ship,Transoceanic,Fair,High Cost,16.46,0.39,473716.12,932739.35,219650.75,0.0
+1043,2023-09-24,Tanker,Long-haul,Fair,High Cost,19.34,0.41,37124.79,766035.08,-216940.58,0.0
+1049,2023-11-05,Fish Carrier,Short-haul,Good,"Low Efficiency, Speed Deviation",10.35,1.46,361839.72,334917.77,107774.36,180764.21
+1052,2023-11-26,Bulk Carrier,Short-haul,Good,High Cost,21.68,0.81,495422.77,160054.19,241357.41,355627.79
+1057,2023-12-31,Tanker,Coastal,Critical,High Cost,22.94,0.55,473121.55,676731.19,219056.18,0.0
+1059,2024-01-14,Bulk Carrier,Coastal,Critical,Low Efficiency,16.11,0.16,426908.25,319002.53,172842.88,196679.45
+1060,2024-01-21,Bulk Carrier,Unknown,Good,Low Efficiency,18.92,1.46,106936.72,963730.93,-147128.65,0.0
+1062,2024-02-04,Unknown,Short-haul,Unknown,High Cost,16.98,0.31,40115.95,528976.47,-213949.42,0.0
+1066,2024-03-03,Tanker,Coastal,Fair,Speed Deviation,24.31,0.67,106444.98,124071.81,-147620.39,391610.17
+1071,2024-04-07,Fish Carrier,Transoceanic,Fair,Low Efficiency,15.86,0.14,328082.53,185691.69,74017.17,329990.29
+1078,2024-05-26,Container Ship,Long-haul,Critical,Low Efficiency,19.58,1.46,243904.58,455707.07,-10160.78,59974.91
+1081,2024-06-16,Container Ship,Transoceanic,Fair,"Low Efficiency, Speed Deviation",11.08,1.46,110424.14,624142.15,-143641.22,0.0
+1089,2023-07-09,Fish Carrier,Transoceanic,Critical,"Low Efficiency, High Cost",16.1,0.11,13498.53,792195.98,-240566.84,0.0
+1092,2023-07-30,Bulk Carrier,Transoceanic,Good,Speed Deviation,24.26,1.18,341801.57,691813.06,87736.2,0.0
+1093,2023-08-06,Tanker,Transoceanic,Fair,High Cost,23.27,0.68,470727.02,738962.31,216661.65,0.0
+1094,2023-08-13,Fish Carrier,Transoceanic,Fair,Low Efficiency,13.48,0.15,159489.09,330516.58,-94576.27,185165.4
+1096,2023-08-27,Container Ship,Transoceanic,Critical,Low Efficiency,12.04,0.15,114394.18,784980.75,-139671.18,0.0
+1097,2023-09-03,Tanker,Transoceanic,Critical,Speed Deviation,10.18,0.6,349986.92,95428.69,95921.55,420253.29
+1098,2023-09-10,Unknown,Short-haul,Unknown,Low Efficiency,14.12,1.44,179616.83,708917.96,-74448.54,0.0
+1101,2023-10-01,Fish Carrier,Short-haul,Critical,Speed Deviation,10.11,1.08,419519.65,589453.45,165454.28,0.0
+1105,2023-10-29,Tanker,Short-haul,Good,Speed Deviation,24.8,0.56,343464.97,563072.1,89399.6,0.0
+1106,2023-11-05,Fish Carrier,Short-haul,Fair,Low Efficiency,22.79,0.17,167258.84,265901.49,-86806.52,249780.49
+1110,2023-12-03,Container Ship,Short-haul,Critical,High Cost,12.75,0.89,483418.99,966348.84,229353.62,0.0
+1111,2023-12-10,Container Ship,Coastal,Critical,Low Efficiency,15.89,1.45,216733.72,50854.62,-37331.64,464827.36
+1112,2023-12-17,Tanker,Short-haul,Critical,Low Efficiency,19.26,1.46,435213.61,521548.03,181148.24,0.0
+1122,2024-02-25,Tanker,Coastal,Critical,High Cost,22.75,0.9,486267.78,712959.46,232202.42,0.0
+1126,2024-03-24,Bulk Carrier,Coastal,Good,High Cost,18.42,1.2,11376.01,740226.86,-242689.36,0.0
+1131,2024-04-28,Bulk Carrier,Long-haul,Good,"Low Efficiency, High Cost, Speed Deviation",24.92,0.12,481649.61,772706.27,227584.25,0.0
+1134,2024-05-19,Container Ship,Long-haul,Unknown,Low Efficiency,17.5,0.17,188607.25,534643.45,-65458.11,0.0
+1136,2024-06-02,Fish Carrier,Short-haul,Good,Speed Deviation,11.0,1.15,259671.58,213593.98,5606.21,302088.0
+1141,2023-06-04,Fish Carrier,Transoceanic,Good,Low Efficiency,15.28,0.18,141480.31,631610.34,-112585.06,0.0
+1142,2023-06-11,Fish Carrier,Short-haul,Critical,Speed Deviation,24.1,1.22,418210.88,423472.33,164145.52,92209.65
+1143,2023-06-18,Tanker,Long-haul,Good,Low Efficiency,11.9,1.5,230790.07,602332.34,-23275.29,0.0
+1150,2023-08-06,Fish Carrier,Transoceanic,Critical,High Cost,19.37,0.92,474907.17,847170.01,220841.8,0.0
+1156,2023-09-17,Container Ship,Transoceanic,Fair,Speed Deviation,24.4,1.25,264260.56,849262.31,10195.19,0.0
+1159,2023-10-08,Fish Carrier,Unknown,Fair,Low Efficiency,22.29,1.48,325143.5,557744.81,71078.13,0.0
+1163,2023-11-05,Fish Carrier,Unknown,Fair,Low Efficiency,18.87,0.15,434686.01,452907.08,180620.65,62774.9
+1164,2023-11-12,Unknown,Long-haul,Critical,"Low Efficiency, High Cost",14.6,0.15,40669.94,787219.39,-213395.42,0.0
+1165,2023-11-19,Tanker,Coastal,Fair,High Cost,17.09,0.93,11170.79,385904.37,-242894.58,129777.61
+1167,2023-12-03,Container Ship,Short-haul,Fair,High Cost,15.53,0.22,36067.44,280399.45,-217997.93,235282.53
+1168,2023-12-10,Bulk Carrier,Transoceanic,Good,Low Efficiency,16.32,1.43,259728.31,639342.75,5662.95,0.0
+1169,2023-12-17,Fish Carrier,Unknown,Good,Speed Deviation,10.24,0.58,154240.63,244589.46,-99824.74,271092.53
+1170,2023-12-24,Tanker,Coastal,Critical,Low Efficiency,11.21,0.15,344197.95,112775.01,90132.58,402906.97
+1172,2024-01-07,Bulk Carrier,Long-haul,Critical,High Cost,18.32,0.6,472199.58,264595.51,218134.21,251086.47
+1174,2024-01-21,Tanker,Transoceanic,Critical,"Low Efficiency, Speed Deviation",24.33,1.44,376514.6,815009.93,122449.23,0.0
+1176,2024-02-04,Container Ship,Transoceanic,Good,Speed Deviation,10.45,1.09,291379.62,789772.91,37314.26,0.0
+1177,2024-02-11,Tanker,Transoceanic,Fair,Speed Deviation,11.09,0.94,416010.54,397378.7,161945.18,118303.29
+1183,2024-03-24,Fish Carrier,Unknown,Critical,Speed Deviation,24.75,0.92,421309.51,281008.28,167244.14,234673.7
+1188,2024-04-28,Container Ship,Coastal,Fair,Speed Deviation,10.17,0.5,404645.93,505066.43,150580.56,10615.56
+1193,2024-06-02,Unknown,Transoceanic,Critical,"Low Efficiency, High Cost",19.63,0.14,37420.24,866392.76,-216645.13,0.0
+1194,2024-06-09,Bulk Carrier,Transoceanic,Fair,Speed Deviation,24.89,1.23,451386.35,378648.05,197320.98,137033.93
+1196,2024-06-23,Bulk Carrier,Transoceanic,Fair,Low Efficiency,23.6,1.42,374858.78,53028.19,120793.41,462653.79
+1203,2023-07-09,Fish Carrier,Short-haul,Good,Low Efficiency,17.71,1.5,82655.82,660264.23,-171409.55,0.0
+1205,2023-07-23,Fish Carrier,Transoceanic,Good,Low Efficiency,14.64,1.41,407411.23,657244.62,153345.86,0.0
+1207,2023-08-06,Bulk Carrier,Short-haul,Critical,Speed Deviation,10.57,0.81,94427.03,233493.14,-159638.34,282188.84
+1209,2023-08-20,Bulk Carrier,Long-haul,Critical,Low Efficiency,21.57,1.49,247139.69,828486.05,-6925.67,0.0
+1211,2023-09-03,Bulk Carrier,Coastal,Critical,Low Efficiency,15.34,0.17,369442.01,194585.77,115376.64,321096.22
+1215,2023-10-01,Unknown,Transoceanic,Critical,High Cost,12.37,0.39,23887.64,648575.68,-230177.73,0.0
+1216,2023-10-08,Bulk Carrier,Long-haul,Fair,Low Efficiency,15.54,1.43,404524.07,916891.41,150458.7,0.0
+1218,2023-10-22,Container Ship,Unknown,Fair,"Low Efficiency, Speed Deviation",24.32,1.44,225466.74,213788.21,-28598.63,301893.77
+1221,2023-11-12,Bulk Carrier,Short-haul,Unknown,Low Efficiency,18.94,1.47,316305.93,475828.39,62240.56,39853.6
+1225,2023-12-10,Tanker,Long-haul,Good,Low Efficiency,14.23,0.16,338701.26,329971.05,84635.89,185710.93
+1231,2024-01-21,Tanker,Short-haul,Fair,Speed Deviation,24.57,1.04,99224.94,368994.91,-154840.42,146687.07
+1235,2024-02-18,Unknown,Long-haul,Critical,High Cost,23.52,0.99,474073.83,430933.34,220008.46,84748.65
+1237,2024-03-03,Tanker,Short-haul,Fair,Speed Deviation,10.85,0.66,391215.63,335523.52,137150.26,180158.46
+1238,2024-03-10,Container Ship,Coastal,Critical,Low Efficiency,17.42,1.47,248913.23,777636.83,-5152.14,0.0
+1242,2024-04-07,Bulk Carrier,Long-haul,Critical,Speed Deviation,24.53,1.25,160759.89,805566.02,-93305.48,0.0
+1245,2024-04-28,Container Ship,Long-haul,Critical,Low Efficiency,19.23,1.43,272297.15,962737.67,18231.78,0.0
+1247,2024-05-12,Tanker,Short-haul,Fair,"Low Efficiency, Speed Deviation",24.08,1.42,334149.04,541313.88,80083.67,0.0
+1250,2024-06-02,Container Ship,Transoceanic,Critical,Low Efficiency,14.0,1.44,344915.78,739683.66,90850.41,0.0
+1256,2023-06-11,Tanker,Coastal,Fair,High Cost,12.28,0.69,468139.2,960314.07,214073.83,0.0
+1258,2023-06-25,Tanker,Transoceanic,Good,Low Efficiency,23.85,0.11,351754.62,903643.75,97689.25,0.0
+1259,2023-07-02,Container Ship,Transoceanic,Good,High Cost,19.19,1.31,483486.07,461188.93,229420.7,54493.05
+1260,2023-07-09,Fish Carrier,Short-haul,Good,Low Efficiency,23.7,1.45,249346.49,856235.08,-4718.87,0.0
+1262,2023-07-23,Bulk Carrier,Short-haul,Unknown,High Cost,21.69,0.77,16132.14,730687.65,-237933.22,0.0
+1265,2023-08-13,Bulk Carrier,Short-haul,Critical,"High Cost, Speed Deviation",10.55,1.07,32032.99,385147.5,-222032.37,130534.48
+1266,2023-08-20,Fish Carrier,Short-haul,Unknown,High Cost,12.17,1.09,470534.59,638641.42,216469.22,0.0
+1278,2023-11-12,Tanker,Long-haul,Critical,Speed Deviation,11.05,0.31,74824.25,433474.83,-179241.11,82207.15
+1280,2023-11-26,Tanker,Transoceanic,Critical,Low Efficiency,18.35,1.43,164713.8,789142.57,-89351.57,0.0
+1281,2023-12-03,Bulk Carrier,Long-haul,Fair,High Cost,17.93,0.89,34277.54,113965.9,-219787.83,401716.08
+1282,2023-12-10,Container Ship,Coastal,Good,Speed Deviation,10.37,1.36,416858.71,559404.93,162793.34,0.0
+1286,2024-01-07,Tanker,Coastal,Good,Speed Deviation,24.83,1.21,81104.45,168117.66,-172960.92,347564.32
+1289,2024-01-28,Bulk Carrier,Long-haul,Unknown,High Cost,14.73,0.86,480917.36,61788.72,226851.99,453893.26
+1290,2024-02-04,Fish Carrier,Coastal,Unknown,Low Efficiency,19.91,1.45,191626.25,211545.96,-62439.11,304136.02
+1296,2024-03-17,Tanker,Long-haul,Fair,High Cost,21.62,1.15,475988.84,992047.38,221923.47,0.0
+1297,2024-03-24,Fish Carrier,Long-haul,Fair,High Cost,22.75,0.26,480380.68,976576.43,226315.31,0.0
+1300,2024-04-14,Bulk Carrier,Short-haul,Good,Speed Deviation,24.71,0.67,340668.74,276362.27,86603.37,239319.71
+1301,2024-04-21,Bulk Carrier,Long-haul,Critical,Speed Deviation,24.46,1.03,191724.05,571148.63,-62341.31,0.0
+1306,2024-05-26,Fish Carrier,Short-haul,Unknown,High Cost,13.44,0.75,43017.2,785320.77,-211048.17,0.0
+1307,2024-06-02,Unknown,Long-haul,Good,Low Efficiency,12.04,0.19,451539.81,129575.16,197474.45,386106.83
+1308,2024-06-09,Container Ship,Transoceanic,Critical,High Cost,15.32,1.22,10097.44,794628.75,-243967.93,0.0
+1316,2023-07-02,Unknown,Transoceanic,Fair,Low Efficiency,16.61,1.44,156685.52,726058.97,-97379.85,0.0
+1319,2023-07-23,Tanker,Transoceanic,Good,Low Efficiency,18.12,0.17,194774.94,697670.73,-59290.42,0.0
+1320,2023-07-30,Tanker,Long-haul,Fair,"Low Efficiency, Speed Deviation",24.66,0.18,424726.05,187051.65,170660.68,328630.33
+1322,2023-08-13,Fish Carrier,Short-haul,Critical,"High Cost, Speed Deviation",10.98,0.5,489296.85,155463.74,235231.48,360218.24
+1329,2023-10-01,Container Ship,Transoceanic,Good,Low Efficiency,15.64,0.17,48001.49,359562.98,-206063.88,156119.0
+1336,2023-11-19,Tanker,Long-haul,Good,"High Cost, Speed Deviation",10.6,0.3,19539.28,684941.35,-234526.09,0.0
+1339,2023-12-10,Container Ship,Short-haul,Good,Speed Deviation,10.62,0.76,351142.27,963117.16,97076.9,0.0
+1343,2024-01-07,Bulk Carrier,Long-haul,Critical,Speed Deviation,24.7,1.1,62637.79,888441.5,-191427.58,0.0
+1347,2024-02-04,Fish Carrier,Transoceanic,Critical,Speed Deviation,10.8,1.2,200661.39,876469.14,-53403.98,0.0
+1352,2024-03-10,Tanker,Short-haul,Critical,Speed Deviation,10.57,0.98,320454.65,110835.7,66389.29,404846.28
+1358,2024-04-21,Tanker,Transoceanic,Critical,"High Cost, Speed Deviation",24.63,0.3,480142.36,461538.76,226076.99,54143.22
+1361,2024-05-12,Container Ship,Coastal,Critical,Speed Deviation,24.66,0.28,390339.15,122206.86,136273.78,393475.12
+1369,2023-06-04,Bulk Carrier,Transoceanic,Unknown,Speed Deviation,24.78,0.98,322287.55,90322.24,68222.19,425359.74
+1370,2023-06-11,Container Ship,Transoceanic,Fair,Low Efficiency,12.65,1.43,131282.07,851170.66,-122783.29,0.0
+1373,2023-07-02,Tanker,Transoceanic,Good,Speed Deviation,24.89,0.75,270179.96,769095.13,16114.59,0.0
+1375,2023-07-16,Bulk Carrier,Coastal,Fair,High Cost,12.96,1.31,30399.66,151602.62,-223665.71,364079.36
+1378,2023-08-06,Tanker,Transoceanic,Fair,"High Cost, Speed Deviation",24.24,0.42,499710.91,232670.32,245645.54,283011.66
+1379,2023-08-13,Fish Carrier,Short-haul,Fair,Low Efficiency,20.8,0.19,216050.75,558066.53,-38014.62,0.0
+1382,2023-09-03,Tanker,Long-haul,Fair,Low Efficiency,14.94,1.43,136736.42,90561.68,-117328.95,425120.3
+1386,2023-10-01,Unknown,Transoceanic,Critical,Low Efficiency,16.03,1.42,90997.11,150555.76,-163068.25,365126.22
+1388,2023-10-15,Fish Carrier,Long-haul,Critical,Speed Deviation,10.77,1.27,387726.59,815665.64,133661.23,0.0
+1392,2023-11-12,Tanker,Long-haul,Critical,"Low Efficiency, Speed Deviation",24.78,1.41,232830.37,611088.79,-21235.0,0.0
+1401,2024-01-14,Fish Carrier,Short-haul,Critical,Speed Deviation,11.01,0.96,235680.62,830147.4,-18384.75,0.0
+1413,2024-04-07,Bulk Carrier,Transoceanic,Fair,Speed Deviation,10.57,0.89,424115.96,473356.12,170050.6,42325.87
+1414,2024-04-14,Bulk Carrier,Coastal,Fair,Speed Deviation,24.85,1.0,386021.94,965168.51,131956.58,0.0
+1419,2024-05-19,Tanker,Short-haul,Good,Speed Deviation,10.8,0.63,301648.27,195553.05,47582.9,320128.93
+1420,2024-05-26,Tanker,Long-haul,Fair,Low Efficiency,11.47,0.19,147236.5,365365.77,-106828.86,150316.21
+1421,2024-06-02,Bulk Carrier,Unknown,Unknown,Low Efficiency,19.74,1.47,259460.58,648470.82,5395.22,0.0
+1423,2024-06-16,Tanker,Long-haul,Fair,"Low Efficiency, Speed Deviation",10.63,0.12,191603.47,474807.87,-62461.9,40874.11
+1428,2023-06-18,Tanker,Long-haul,Good,Low Efficiency,19.95,1.46,249694.85,283797.08,-4370.51,231884.9
+1429,2023-06-25,Bulk Carrier,Long-haul,Good,Speed Deviation,11.06,1.23,88330.74,904819.71,-165734.63,0.0
+1433,2023-07-23,Bulk Carrier,Short-haul,Unknown,High Cost,17.65,0.79,41942.07,219667.32,-212123.3,296014.66
+1434,2023-07-30,Fish Carrier,Short-haul,Critical,Speed Deviation,24.21,0.39,227293.89,682104.66,-26771.48,0.0
+1440,2023-09-10,Container Ship,Short-haul,Good,Speed Deviation,24.71,1.22,371034.29,488679.61,116968.92,27002.37
+1446,2023-10-22,Tanker,Coastal,Critical,"Low Efficiency, Speed Deviation",24.18,1.41,461063.42,215893.57,206998.06,299788.41
+1449,2023-11-12,Bulk Carrier,Coastal,Good,"Low Efficiency, Speed Deviation",24.25,1.47,366677.44,813185.87,112612.08,0.0
+1451,2023-11-26,Tanker,Short-haul,Fair,High Cost,20.37,0.65,25037.08,815724.22,-229028.28,0.0
+1453,2023-12-10,Fish Carrier,Transoceanic,Good,Speed Deviation,10.92,1.16,352250.79,538964.48,98185.42,0.0
+1456,2023-12-31,Fish Carrier,Coastal,Fair,"Low Efficiency, Speed Deviation",10.87,1.46,459791.87,264704.11,205726.5,250977.87
+1457,2024-01-07,Container Ship,Short-haul,Fair,"Low Efficiency, High Cost",22.26,1.43,35988.2,415240.32,-218077.16,100441.66
+1458,2024-01-14,Tanker,Short-haul,Critical,Low Efficiency,20.78,1.48,211464.76,916482.38,-42600.6,0.0
+1459,2024-01-21,Container Ship,Transoceanic,Good,Low Efficiency,12.93,0.19,320132.89,865126.78,66067.52,0.0
+1462,2024-02-11,Tanker,Long-haul,Good,High Cost,11.87,1.02,43164.26,344387.94,-210901.11,171294.04
+1465,2024-03-03,Fish Carrier,Transoceanic,Good,Speed Deviation,10.91,1.1,239872.65,267986.25,-14192.72,247695.73
+1471,2024-04-14,Container Ship,Long-haul,Good,Speed Deviation,11.07,0.38,52508.02,690142.03,-201557.34,0.0
+1472,2024-04-21,Fish Carrier,Coastal,Critical,"Low Efficiency, High Cost",22.94,0.11,35492.05,573084.75,-218573.32,0.0
+1478,2024-06-02,Fish Carrier,Coastal,Critical,Speed Deviation,10.93,0.47,90211.6,987107.98,-163853.77,0.0
+1479,2024-06-09,Tanker,Transoceanic,Critical,Low Efficiency,12.43,1.5,251381.73,742898.04,-2683.64,0.0
+1483,2023-06-04,Container Ship,Transoceanic,Critical,Speed Deviation,11.04,1.33,198310.24,967264.57,-55755.12,0.0
+1484,2023-06-11,Fish Carrier,Long-haul,Good,High Cost,19.67,0.23,37820.65,296891.39,-216244.72,218790.59
+1486,2023-06-25,Bulk Carrier,Coastal,Fair,Low Efficiency,22.37,0.11,237666.11,467462.24,-16399.26,48219.74
+1490,2023-07-23,Fish Carrier,Coastal,Good,Speed Deviation,10.36,0.49,77184.45,245107.4,-176880.91,270574.58
+1491,2023-07-30,Tanker,Transoceanic,Critical,Low Efficiency,20.81,1.5,94928.79,923302.78,-159136.58,0.0
+1496,2023-09-03,Tanker,Short-haul,Critical,Low Efficiency,18.2,1.47,110199.83,822222.79,-143865.54,0.0
+1497,2023-09-10,Fish Carrier,Coastal,Good,High Cost,23.12,1.01,21182.54,116738.44,-232882.83,398943.54
+1499,2023-09-24,Fish Carrier,Transoceanic,Fair,High Cost,18.77,0.46,482297.55,889371.89,228232.18,0.0
+1501,2023-10-08,Container Ship,Transoceanic,Unknown,Low Efficiency,14.58,1.46,169305.37,727784.68,-84760.0,0.0
+1502,2023-10-15,Fish Carrier,Long-haul,Fair,Speed Deviation,24.63,0.39,75708.41,551888.0,-178356.96,0.0
+1503,2023-10-22,Bulk Carrier,Long-haul,Good,High Cost,11.26,1.21,26549.28,291433.82,-227516.08,224248.16
+1506,2023-11-12,Container Ship,Long-haul,Unknown,Low Efficiency,20.12,0.11,122052.6,449580.94,-132012.77,66101.04
+1509,2023-12-03,Container Ship,Coastal,Fair,Low Efficiency,16.75,0.18,342627.62,181315.95,88562.25,334366.03
+1510,2023-12-10,Tanker,Transoceanic,Unknown,Low Efficiency,15.2,0.14,417577.9,135092.31,163512.54,380589.67
+1511,2023-12-17,Fish Carrier,Coastal,Good,Speed Deviation,24.95,0.71,330372.5,177018.46,76307.13,338663.52
+1513,2023-12-31,Fish Carrier,Unknown,Critical,Low Efficiency,21.48,1.46,162846.96,385698.73,-91218.4,129983.25
+1517,2024-01-28,Tanker,Long-haul,Fair,High Cost,13.89,1.3,470299.09,403782.73,216233.72,111899.25
+1521,2024-02-25,Unknown,Short-haul,Critical,"Low Efficiency, Speed Deviation",10.88,1.47,420717.36,975162.03,166651.99,0.0
+1528,2024-04-14,Container Ship,Long-haul,Critical,High Cost,20.85,1.1,15681.34,537610.49,-238384.03,0.0
+1535,2024-06-02,Bulk Carrier,Transoceanic,Critical,High Cost,19.28,0.34,16324.23,473997.79,-237741.14,41684.19
+1536,2024-06-09,Tanker,Short-haul,Fair,High Cost,21.2,0.49,10836.03,616304.86,-243229.34,0.0
+1541,2023-06-11,Tanker,Long-haul,Critical,Speed Deviation,10.59,1.39,336672.9,992649.93,82607.54,0.0
+1544,2023-07-02,Bulk Carrier,Short-haul,Critical,High Cost,17.06,0.61,491747.26,766399.74,237681.9,0.0
+1546,2023-07-16,Fish Carrier,Coastal,Critical,High Cost,22.6,0.24,489045.02,266910.38,234979.66,248771.6
+1547,2023-07-23,Unknown,Coastal,Fair,High Cost,21.18,0.21,469124.07,924270.21,215058.71,0.0
+1548,2023-07-30,Tanker,Short-haul,Good,Speed Deviation,10.29,0.99,412357.27,901690.31,158291.9,0.0
+1554,2023-09-10,Container Ship,Long-haul,Critical,Low Efficiency,14.16,1.45,445988.21,223636.93,191922.84,292045.05
+1559,2023-10-15,Container Ship,Transoceanic,Critical,Low Efficiency,18.05,0.11,184635.57,428607.65,-69429.8,87074.33
+1560,2023-10-22,Tanker,Transoceanic,Fair,Low Efficiency,17.04,1.43,286928.04,912057.01,32862.67,0.0
+1563,2023-11-12,Tanker,Long-haul,Fair,Speed Deviation,24.46,0.5,189860.5,357211.47,-64204.87,158470.51
+1564,2023-11-19,Bulk Carrier,Transoceanic,Good,"High Cost, Speed Deviation",11.11,1.27,20969.54,797091.35,-233095.82,0.0
+1565,2023-11-26,Container Ship,Coastal,Critical,Speed Deviation,10.55,0.32,319330.13,464058.24,65264.76,51623.74
+1566,2023-12-03,Container Ship,Long-haul,Critical,Speed Deviation,11.1,0.26,418633.57,216405.12,164568.2,299276.86
+1567,2023-12-10,Bulk Carrier,Short-haul,Good,Low Efficiency,19.66,0.12,133738.46,177690.04,-120326.91,337991.94
+1568,2023-12-17,Container Ship,Coastal,Good,Speed Deviation,10.79,0.31,285733.77,493526.76,31668.4,22155.22
+1577,2024-02-18,Unknown,Long-haul,Fair,High Cost,20.45,1.05,484070.92,676841.98,230005.55,0.0
+1584,2024-04-07,Tanker,Coastal,Critical,High Cost,21.7,0.35,41796.3,498977.36,-212269.07,16704.62
+1586,2024-04-21,Fish Carrier,Transoceanic,Good,Speed Deviation,10.7,0.69,226842.28,79204.56,-27223.09,436477.42
+1589,2024-05-12,Fish Carrier,Short-haul,Fair,High Cost,13.63,0.31,469062.35,430704.52,214996.98,84977.46
+1590,2024-05-19,Tanker,Short-haul,Fair,Speed Deviation,24.74,0.21,323547.72,224295.71,69482.35,291386.27
+1595,2024-06-23,Container Ship,Transoceanic,Critical,High Cost,11.52,0.6,468949.82,111716.05,214884.46,403965.94
+1596,2024-06-30,Tanker,Transoceanic,Fair,"High Cost, Speed Deviation",10.34,0.41,20842.25,159000.38,-233223.12,356681.6
+1598,2023-06-11,Bulk Carrier,Short-haul,Critical,"High Cost, Speed Deviation",10.18,0.49,29409.23,496051.31,-224656.13,19630.67
+1599,2023-06-18,Container Ship,Transoceanic,Critical,Speed Deviation,10.69,1.22,231024.33,385360.81,-23041.04,130321.17
+1602,2023-07-09,Bulk Carrier,Coastal,Fair,Low Efficiency,12.92,1.46,464885.49,847945.7,210820.12,0.0
+1604,2023-07-23,Tanker,Long-haul,Good,Speed Deviation,10.75,0.66,282877.69,847130.88,28812.33,0.0
+1605,2023-07-30,Tanker,Coastal,Critical,Low Efficiency,22.18,0.18,51132.28,75616.15,-202933.08,440065.84
+1609,2023-08-27,Tanker,Coastal,Fair,High Cost,16.12,1.04,473600.66,555416.64,219535.29,0.0
+1611,2023-09-10,Fish Carrier,Coastal,Critical,Speed Deviation,24.23,1.29,457201.08,630795.81,203135.71,0.0
+1613,2023-09-24,Container Ship,Transoceanic,Good,"Low Efficiency, High Cost",20.39,1.46,11980.62,765140.94,-242084.75,0.0
+1614,2023-10-01,Bulk Carrier,Short-haul,Critical,Low Efficiency,17.37,0.11,360878.31,127902.84,106812.94,387779.14
+1615,2023-10-08,Container Ship,Transoceanic,Good,Low Efficiency,19.79,1.41,428158.21,195085.02,174092.84,320596.96
+1616,2023-10-15,Fish Carrier,Short-haul,Good,Speed Deviation,24.5,0.84,261981.14,202317.26,7915.77,313364.72
+1619,2023-11-05,Tanker,Short-haul,Critical,Low Efficiency,19.27,0.15,422194.15,423212.38,168128.78,92469.6
+1622,2023-11-26,Fish Carrier,Short-haul,Critical,Low Efficiency,23.5,1.44,47951.87,324006.85,-206113.5,191675.13
+1624,2023-12-10,Container Ship,Short-haul,Fair,High Cost,23.15,0.69,41117.5,70295.58,-212947.86,445386.4
+1631,2024-01-28,Fish Carrier,Long-haul,Good,Speed Deviation,24.92,0.42,256141.71,863688.57,2076.35,0.0
+1634,2024-02-18,Fish Carrier,Transoceanic,Good,High Cost,23.08,0.22,30802.29,182177.18,-223263.07,333504.8
+1635,2024-02-25,Bulk Carrier,Coastal,Fair,"High Cost, Speed Deviation",24.8,0.6,496948.46,623722.98,242883.1,0.0
+1637,2024-03-10,Container Ship,Transoceanic,Good,Low Efficiency,15.26,0.17,93186.15,952060.91,-160879.22,0.0
+1639,2024-03-24,Bulk Carrier,Coastal,Good,Low Efficiency,22.08,0.15,153322.88,616085.25,-100742.49,0.0
+1640,2024-03-31,Tanker,Long-haul,Critical,Low Efficiency,17.59,0.18,209303.28,633330.61,-44762.08,0.0
+1642,2024-04-14,Tanker,Transoceanic,Critical,Speed Deviation,10.75,0.49,233748.82,492591.41,-20316.55,23090.57
+1644,2024-04-28,Tanker,Transoceanic,Critical,High Cost,18.77,1.21,37331.42,955169.16,-216733.94,0.0
+1646,2024-05-12,Fish Carrier,Long-haul,Critical,"High Cost, Speed Deviation",10.31,0.33,25299.43,849782.55,-228765.94,0.0
+1647,2024-05-19,Container Ship,Coastal,Fair,High Cost,21.89,0.24,41946.05,250748.45,-212119.32,264933.54
+1650,2024-06-09,Container Ship,Transoceanic,Critical,"Low Efficiency, Speed Deviation",24.27,1.41,269268.57,525830.3,15203.2,0.0
+1652,2024-06-23,Container Ship,Transoceanic,Good,High Cost,23.3,0.27,475574.07,566681.42,221508.7,0.0
+1654,2023-06-04,Container Ship,Short-haul,Fair,Low Efficiency,19.11,0.18,84391.65,635249.76,-169673.72,0.0
+1655,2023-06-11,Fish Carrier,Short-haul,Critical,High Cost,16.96,0.87,19347.86,332386.14,-234717.51,183295.84
+1660,2023-07-16,Bulk Carrier,Short-haul,Fair,"Low Efficiency, Speed Deviation",24.37,0.12,203930.86,909720.67,-50134.5,0.0
+1665,2023-08-20,Container Ship,Long-haul,Fair,High Cost,11.23,0.93,35496.94,152503.48,-218568.43,363178.5
+1666,2023-08-27,Container Ship,Coastal,Critical,"High Cost, Speed Deviation",24.59,0.54,486873.44,163628.5,232808.07,352053.48
+1675,2023-10-29,Bulk Carrier,Coastal,Critical,Low Efficiency,22.56,0.16,153389.67,167539.57,-100675.7,348142.42
+1677,2023-11-12,Bulk Carrier,Short-haul,Critical,Low Efficiency,23.56,1.45,418598.04,979059.0,164532.67,0.0
+1679,2023-11-26,Container Ship,Long-haul,Fair,Low Efficiency,21.85,0.13,65554.02,227354.32,-188511.35,288327.67
+1682,2023-12-17,Fish Carrier,Short-haul,Good,High Cost,17.86,0.73,30512.7,894863.42,-223552.67,0.0
+1684,2023-12-31,Container Ship,Long-haul,Unknown,High Cost,22.5,0.47,495091.66,84502.45,241026.29,431179.53
+1696,2024-03-24,Tanker,Long-haul,Good,High Cost,20.01,0.33,472208.73,333969.85,218143.37,181712.13
+1697,2024-03-31,Bulk Carrier,Short-haul,Fair,High Cost,22.43,0.76,42870.67,390541.38,-211194.7,125140.6
+1698,2024-04-07,Tanker,Long-haul,Fair,Speed Deviation,24.66,0.61,429600.64,459569.86,175535.28,56112.12
+1702,2024-05-05,Container Ship,Short-haul,Good,Speed Deviation,10.38,0.86,455642.79,637379.31,201577.42,0.0
+1709,2024-06-23,Bulk Carrier,Coastal,Critical,High Cost,19.29,0.91,474655.23,163107.41,220589.86,352574.57
+1711,2023-06-04,Fish Carrier,Transoceanic,Good,Speed Deviation,24.41,0.89,64504.96,745794.75,-189560.41,0.0
+1719,2023-07-30,Container Ship,Coastal,Critical,High Cost,22.99,0.83,40510.49,850863.99,-213554.88,0.0
+1721,2023-08-13,Bulk Carrier,Transoceanic,Unknown,High Cost,13.82,1.12,489530.29,966886.37,235464.93,0.0
+1723,2023-08-27,Container Ship,Transoceanic,Fair,Low Efficiency,13.24,0.1,385613.18,169915.21,131547.81,345766.77
+1726,2023-09-17,Fish Carrier,Short-haul,Critical,Low Efficiency,14.07,0.15,82748.59,443390.65,-171316.78,72291.33
+1728,2023-10-01,Bulk Carrier,Long-haul,Good,Low Efficiency,15.64,1.43,187691.82,254257.59,-66373.55,261424.39
+1729,2023-10-08,Container Ship,Coastal,Fair,Speed Deviation,10.48,1.24,299441.2,460788.33,45375.83,54893.66
+1730,2023-10-15,Bulk Carrier,Coastal,Critical,Low Efficiency,15.64,0.16,415350.92,544921.7,161285.55,0.0
+1731,2023-10-22,Tanker,Transoceanic,Fair,Low Efficiency,16.24,1.46,126017.05,493888.48,-128048.31,21793.5
+1732,2023-10-29,Bulk Carrier,Short-haul,Good,High Cost,13.2,0.52,475528.09,764523.25,221462.73,0.0
+1737,2023-12-03,Tanker,Short-haul,Critical,"Low Efficiency, High Cost",20.46,1.42,473047.67,726372.01,218982.3,0.0
+1738,2023-12-10,Fish Carrier,Short-haul,Fair,High Cost,15.76,1.26,34422.83,413331.18,-219642.54,102350.8
+1743,2024-01-14,Tanker,Transoceanic,Critical,Speed Deviation,10.09,0.86,363952.21,554885.02,109886.84,0.0
+1744,2024-01-21,Tanker,Long-haul,Good,Speed Deviation,10.77,0.74,466318.01,608953.74,212252.65,0.0
+1746,2024-02-04,Fish Carrier,Coastal,Good,Speed Deviation,24.44,0.5,435921.99,466009.88,181856.62,49672.1
+1750,2024-03-03,Bulk Carrier,Short-haul,Good,High Cost,18.37,0.76,12684.61,684387.32,-241380.76,0.0
+1754,2024-03-31,Tanker,Short-haul,Good,Speed Deviation,10.56,0.37,294081.83,60261.82,40016.47,455420.16
+1755,2024-04-07,Container Ship,Long-haul,Fair,"High Cost, Speed Deviation",10.15,0.23,489224.42,326990.34,235159.05,188691.65
+1756,2024-04-14,Tanker,Short-haul,Good,Speed Deviation,24.72,1.28,407077.54,322293.37,153012.18,193388.61
+1758,2024-04-28,Fish Carrier,Transoceanic,Good,Low Efficiency,15.19,1.45,433341.21,176723.54,179275.84,338958.44
+1766,2024-06-23,Container Ship,Long-haul,Fair,Low Efficiency,16.26,0.13,61152.85,382833.68,-192912.52,132848.3
+1767,2024-06-30,Bulk Carrier,Long-haul,Unknown,High Cost,11.33,0.39,14204.16,732138.31,-239861.21,0.0
+1768,2023-06-04,Container Ship,Short-haul,Good,High Cost,12.67,0.56,23110.66,369081.75,-230954.7,146600.23
+1771,2023-06-25,Tanker,Short-haul,Fair,High Cost,15.55,0.49,13921.49,277513.36,-240143.88,238168.62
+1777,2023-08-06,Tanker,Unknown,Critical,"High Cost, Speed Deviation",11.06,0.57,499012.81,354634.46,244947.44,161047.52
+1781,2023-09-03,Fish Carrier,Short-haul,Critical,High Cost,23.63,0.66,18839.43,346919.84,-235225.94,168762.14
+1784,2023-09-24,Container Ship,Long-haul,Good,Speed Deviation,10.15,1.08,165224.36,728620.56,-88841.01,0.0
+1785,2023-10-01,Tanker,Coastal,Critical,Speed Deviation,10.45,1.09,267456.24,441750.03,13390.88,73931.95
+1786,2023-10-08,Fish Carrier,Transoceanic,Critical,Speed Deviation,24.62,0.32,325835.63,539678.4,71770.26,0.0
+1788,2023-10-22,Fish Carrier,Long-haul,Fair,Speed Deviation,10.78,1.4,113851.91,440588.19,-140213.45,75093.79
+1790,2023-11-05,Container Ship,Transoceanic,Critical,"Low Efficiency, Speed Deviation",24.42,1.42,93003.93,604218.3,-161061.44,0.0
+1792,2023-11-19,Tanker,Long-haul,Fair,High Cost,22.76,0.6,497140.33,959164.35,243074.96,0.0
+1795,2023-12-10,Container Ship,Long-haul,Good,Low Efficiency,21.73,1.48,304587.99,551691.09,50522.63,0.0
+1804,2024-02-11,Fish Carrier,Transoceanic,Critical,"Low Efficiency, High Cost",21.28,0.11,35522.76,484433.43,-218542.61,31248.55
+1805,2024-02-18,Bulk Carrier,Transoceanic,Critical,High Cost,16.29,0.58,486046.39,850490.41,231981.02,0.0
+1806,2024-02-25,Bulk Carrier,Coastal,Good,Speed Deviation,24.55,0.69,361836.66,512757.12,107771.29,2924.86
+1811,2024-03-31,Tanker,Short-haul,Good,High Cost,21.21,1.21,12379.7,906241.9,-241685.67,0.0
+1813,2024-04-14,Bulk Carrier,Transoceanic,Good,Speed Deviation,10.33,0.31,388498.85,420075.66,134433.48,95606.32
+1814,2024-04-21,Container Ship,Unknown,Fair,High Cost,19.26,0.57,495980.94,51396.89,241915.57,464285.09
+1815,2024-04-28,Fish Carrier,Unknown,Fair,Low Efficiency,22.06,1.45,99068.95,970527.59,-154996.42,0.0
+1818,2024-05-19,Container Ship,Long-haul,Critical,"Low Efficiency, High Cost",21.5,0.15,485494.7,549595.38,231429.34,0.0
+1819,2024-05-26,Container Ship,Unknown,Good,Low Efficiency,19.24,1.49,442907.32,331979.11,188841.95,183702.87
+1820,2024-06-02,Container Ship,Transoceanic,Critical,"High Cost, Speed Deviation",10.58,0.77,38483.07,132043.16,-215582.3,383638.82
+1821,2024-06-09,Fish Carrier,Transoceanic,Good,Speed Deviation,10.84,0.42,114975.03,201885.0,-139090.34,313796.98
+1822,2024-06-16,Container Ship,Transoceanic,Critical,High Cost,13.96,0.93,477311.84,511617.79,223246.48,4064.2
+1826,2023-06-11,Tanker,Coastal,Good,Low Efficiency,21.9,1.46,226846.45,310474.13,-27218.91,205207.85
+1828,2023-06-25,Tanker,Short-haul,Critical,Speed Deviation,10.44,0.99,147717.6,939813.74,-106347.77,0.0
+1830,2023-07-09,Fish Carrier,Transoceanic,Good,Speed Deviation,11.07,0.35,134188.62,55586.38,-119876.75,460095.6
+1831,2023-07-16,Fish Carrier,Long-haul,Good,Speed Deviation,24.81,1.31,47875.91,274596.85,-206189.46,241085.13
+1832,2023-07-23,Fish Carrier,Transoceanic,Fair,High Cost,20.1,1.23,488964.33,537245.92,234898.96,0.0
+1835,2023-08-13,Tanker,Short-haul,Good,Low Efficiency,16.59,1.44,268432.56,716372.31,14367.2,0.0
+1837,2023-08-27,Unknown,Short-haul,Unknown,Speed Deviation,10.62,0.28,458634.1,468989.71,204568.74,46692.27
+1841,2023-09-24,Bulk Carrier,Coastal,Good,High Cost,19.38,1.17,484860.65,577411.84,230795.28,0.0
+1842,2023-10-01,Container Ship,Short-haul,Fair,Low Efficiency,23.14,0.11,201377.65,809630.42,-52687.71,0.0
+1845,2023-10-22,Container Ship,Long-haul,Good,"Low Efficiency, High Cost",11.81,1.46,37559.77,994040.23,-216505.59,0.0
+1846,2023-10-29,Bulk Carrier,Short-haul,Critical,Low Efficiency,23.16,1.41,122699.65,653927.42,-131365.72,0.0
+1854,2023-12-24,Container Ship,Coastal,Unknown,Low Efficiency,12.59,1.45,128573.34,544512.32,-125492.03,0.0
+1858,2024-01-21,Tanker,Transoceanic,Good,Speed Deviation,24.74,0.56,449858.18,244045.43,195792.81,271636.55
+1859,2024-01-28,Bulk Carrier,Transoceanic,Good,Speed Deviation,24.24,0.4,191567.86,886556.86,-62497.51,0.0
+1860,2024-02-04,Bulk Carrier,Transoceanic,Critical,Speed Deviation,10.39,0.29,197098.47,561523.03,-56966.89,0.0
+1862,2024-02-18,Tanker,Short-haul,Fair,Low Efficiency,13.24,1.49,53029.06,820668.57,-201036.31,0.0
+1868,2024-03-31,Fish Carrier,Short-haul,Good,"High Cost, Speed Deviation",24.62,0.22,472824.21,160588.23,218758.84,355093.75
+1869,2024-04-07,Container Ship,Coastal,Fair,Low Efficiency,20.7,0.12,194977.34,990302.09,-59088.02,0.0
+1871,2024-04-21,Bulk Carrier,Short-haul,Fair,High Cost,23.22,0.81,476188.14,729194.65,222122.77,0.0
+1875,2024-05-19,Fish Carrier,Long-haul,Fair,Speed Deviation,24.2,0.42,327158.39,328224.34,73093.02,187457.64
+1876,2024-05-26,Fish Carrier,Long-haul,Fair,High Cost,19.45,0.89,41883.24,240635.61,-212182.13,275046.37
+1877,2024-06-02,Tanker,Long-haul,Critical,High Cost,14.52,0.43,28764.09,479399.5,-225301.28,36282.48
+1879,2024-06-16,Bulk Carrier,Transoceanic,Good,Low Efficiency,17.18,1.46,82559.48,169962.16,-171505.88,345719.82
+1882,2023-06-04,Tanker,Coastal,Fair,"Low Efficiency, Speed Deviation",24.53,1.49,420234.31,141865.28,166168.95,373816.71
+1886,2023-07-02,Tanker,Short-haul,Critical,High Cost,23.9,1.32,18072.6,210601.2,-235992.77,305080.78
+1897,2023-09-17,Tanker,Transoceanic,Critical,Speed Deviation,10.76,0.23,209956.31,652524.38,-44109.05,0.0
+1900,2023-10-08,Fish Carrier,Short-haul,Critical,Low Efficiency,23.18,0.11,445426.01,870372.67,191360.65,0.0
+1902,2023-10-22,Container Ship,Coastal,Good,Low Efficiency,16.84,1.42,389884.57,969262.8,135819.2,0.0
+1904,2023-11-05,Fish Carrier,Short-haul,Good,High Cost,19.77,0.42,468228.78,810213.18,214163.41,0.0
+1905,2023-11-12,Container Ship,Transoceanic,Fair,Speed Deviation,24.91,0.88,298917.68,342096.61,44852.31,173585.37
+1906,2023-11-19,Container Ship,Short-haul,Critical,Low Efficiency,16.63,1.46,141055.45,277895.35,-113009.92,237786.63
+1908,2023-12-03,Container Ship,Long-haul,Fair,Speed Deviation,10.77,0.87,338132.68,604756.62,84067.31,0.0
+1909,2023-12-10,Bulk Carrier,Long-haul,Critical,Low Efficiency,16.52,1.44,74727.6,366071.25,-179337.77,149610.73
+1911,2023-12-24,Tanker,Coastal,Fair,Speed Deviation,24.78,0.69,391344.33,331745.29,137278.97,183936.69
+1913,2024-01-07,Tanker,Unknown,Good,High Cost,20.79,0.97,36951.63,972908.87,-217113.74,0.0
+1915,2024-01-21,Fish Carrier,Short-haul,Good,Low Efficiency,23.17,0.16,459188.3,626265.35,205122.93,0.0
+1917,2024-02-04,Container Ship,Transoceanic,Unknown,Speed Deviation,10.95,1.39,53412.15,239144.53,-200653.22,276537.46
+1920,2024-02-25,Fish Carrier,Coastal,Critical,Speed Deviation,10.02,0.82,179774.44,917554.69,-74290.93,0.0
+1922,2024-03-10,Fish Carrier,Coastal,Good,Speed Deviation,24.47,1.38,244990.99,99942.09,-9074.38,415739.89
+1924,2024-03-24,Fish Carrier,Long-haul,Fair,Low Efficiency,15.42,1.49,418181.0,755633.85,164115.64,0.0
+1926,2024-04-07,Fish Carrier,Coastal,Good,High Cost,19.52,1.02,10225.16,800461.51,-243840.2,0.0
+1927,2024-04-14,Container Ship,Coastal,Critical,Low Efficiency,14.36,1.46,64046.88,337782.4,-190018.48,177899.58
+1935,2024-06-09,Bulk Carrier,Long-haul,Critical,"High Cost, Speed Deviation",10.78,0.4,481326.0,896489.45,227260.63,0.0
+1937,2024-06-23,Fish Carrier,Transoceanic,Good,High Cost,18.76,1.31,27288.25,130877.79,-226777.11,384804.19
+1938,2024-06-30,Fish Carrier,Coastal,Good,Speed Deviation,24.55,0.47,198170.7,601269.27,-55894.67,0.0
+1940,2023-06-11,Bulk Carrier,Coastal,Good,High Cost,13.6,1.22,497216.01,572399.73,243150.64,0.0
+1944,2023-07-09,Fish Carrier,Coastal,Fair,High Cost,15.25,0.8,480613.79,946168.67,226548.43,0.0
+1947,2023-07-30,Bulk Carrier,Long-haul,Critical,Low Efficiency,19.09,0.14,50768.37,360473.77,-203297.0,155208.22
+1949,2023-08-13,Bulk Carrier,Long-haul,Good,High Cost,18.38,1.24,482318.27,635402.66,228252.9,0.0
+1951,2023-08-27,Bulk Carrier,Long-haul,Fair,Low Efficiency,16.51,0.17,269081.19,613755.47,15015.82,0.0
+1953,2023-09-10,Tanker,Unknown,Critical,High Cost,19.83,0.76,480953.9,992869.03,226888.53,0.0
+1955,2023-09-24,Tanker,Coastal,Good,High Cost,17.16,0.92,13445.92,204596.8,-240619.44,311085.18
+1957,2023-10-08,Bulk Carrier,Long-haul,Fair,High Cost,11.6,0.69,487364.1,846236.69,233298.73,0.0
+1959,2023-10-22,Fish Carrier,Long-haul,Fair,High Cost,23.09,0.49,479805.16,910244.92,225739.79,0.0
+1961,2023-11-05,Bulk Carrier,Long-haul,Critical,"Low Efficiency, Speed Deviation",11.1,1.42,285250.69,308073.37,31185.33,207608.61
+1962,2023-11-12,Bulk Carrier,Short-haul,Good,Speed Deviation,24.43,1.15,232457.83,272596.33,-21607.53,243085.65
+1970,2024-01-07,Unknown,Unknown,Good,Speed Deviation,10.37,0.7,360363.92,179691.01,106298.55,335990.98
+1978,2024-03-03,Tanker,Transoceanic,Fair,High Cost,12.75,1.27,499125.27,752502.78,245059.9,0.0
+1980,2024-03-17,Container Ship,Unknown,Critical,High Cost,19.33,1.21,485868.53,974535.06,231803.17,0.0
+1981,2024-03-24,Tanker,Long-haul,Fair,Low Efficiency,16.15,0.11,407736.96,534049.28,153671.59,0.0
+1983,2024-04-07,Bulk Carrier,Transoceanic,Fair,Low Efficiency,13.99,0.12,280978.02,729249.05,26912.65,0.0
+1984,2024-04-14,Bulk Carrier,Long-haul,Critical,Low Efficiency,12.35,0.11,287799.57,566840.71,33734.2,0.0
+1985,2024-04-21,Fish Carrier,Long-haul,Good,Speed Deviation,10.59,0.72,106680.49,484920.69,-147384.88,30761.29
+1986,2024-04-28,Bulk Carrier,Long-haul,Fair,High Cost,16.21,1.08,24905.05,484502.22,-229160.31,31179.76
+1988,2024-05-12,Fish Carrier,Transoceanic,Critical,High Cost,16.41,0.7,36192.6,809027.18,-217872.77,0.0
+1989,2024-05-19,Bulk Carrier,Long-haul,Good,High Cost,21.13,1.39,483537.46,288512.22,229472.1,227169.76
+1993,2024-06-16,Bulk Carrier,Transoceanic,Fair,"Low Efficiency, High Cost",13.67,0.19,36597.02,65443.54,-217468.35,450238.44
+1996,2023-06-04,Bulk Carrier,Unknown,Good,Speed Deviation,10.43,0.67,421139.68,201010.78,167074.32,314671.2
+1999,2023-06-25,Tanker,Unknown,Good,Low Efficiency,20.45,0.11,339336.5,754882.24,85271.13,0.0
+2001,2023-07-09,Bulk Carrier,Short-haul,Critical,High Cost,15.1,0.71,13299.3,183493.53,-240766.07,332188.45
+2002,2023-07-16,Tanker,Coastal,Good,"Low Efficiency, Speed Deviation",10.43,1.46,173911.59,606083.83,-80153.78,0.0
+2007,2023-08-20,Fish Carrier,Coastal,Fair,High Cost,18.35,0.29,18088.36,376641.0,-235977.0,139040.99
+2009,2023-09-03,Tanker,Unknown,Critical,Low Efficiency,16.41,1.46,352935.14,885356.45,98869.78,0.0
+2013,2023-10-01,Bulk Carrier,Coastal,Fair,Low Efficiency,14.78,1.47,142010.49,289049.51,-112054.87,226632.48
+2014,2023-10-08,Container Ship,Long-haul,Critical,Speed Deviation,24.35,1.37,375536.67,365826.67,121471.3,149855.32
+2015,2023-10-15,Fish Carrier,Short-haul,Good,High Cost,13.57,0.45,474062.66,189612.17,219997.29,326069.81
+2018,2023-11-05,Container Ship,Coastal,Good,High Cost,14.26,0.58,491295.29,936395.7,237229.93,0.0
+2020,2023-11-19,Tanker,Long-haul,Good,Speed Deviation,24.91,0.87,243944.56,384405.39,-10120.8,131276.59
+2023,2023-12-10,Tanker,Short-haul,Good,Speed Deviation,24.71,0.54,82810.29,241926.9,-171255.08,273755.08
+2035,2024-03-03,Tanker,Short-haul,Critical,"High Cost, Speed Deviation",24.44,0.99,33194.86,670128.59,-220870.51,0.0
+2037,2024-03-17,Bulk Carrier,Transoceanic,Critical,Speed Deviation,10.64,1.37,465565.88,734425.77,211500.51,0.0
+2045,2024-05-12,Bulk Carrier,Short-haul,Critical,Low Efficiency,14.04,1.46,219814.22,868675.88,-34251.15,0.0
+2049,2024-06-09,Bulk Carrier,Coastal,Fair,High Cost,18.63,0.42,492776.03,520836.44,238710.67,0.0
+2052,2024-06-30,Tanker,Short-haul,Good,Low Efficiency,16.33,1.41,205369.46,728451.61,-48695.91,0.0
+2055,2023-06-18,Container Ship,Long-haul,Fair,"Low Efficiency, High Cost",18.92,0.1,498989.09,367870.01,244923.72,147811.97
+2057,2023-07-02,Fish Carrier,Long-haul,Good,High Cost,20.63,0.45,18081.0,385130.64,-235984.37,130551.34
+2060,2023-07-23,Container Ship,Long-haul,Good,High Cost,20.92,0.38,473625.06,215158.42,219559.69,300523.56
+2062,2023-08-06,Bulk Carrier,Transoceanic,Critical,Speed Deviation,10.89,0.4,67251.07,525409.75,-186814.3,0.0
+2064,2023-08-20,Fish Carrier,Transoceanic,Critical,Speed Deviation,10.81,0.44,105026.84,256086.25,-149038.53,259595.73
+2065,2023-08-27,Bulk Carrier,Short-haul,Critical,"High Cost, Speed Deviation",24.25,0.81,15869.76,497327.64,-238195.61,18354.34
+2070,2023-10-01,Fish Carrier,Unknown,Fair,Low Efficiency,14.13,0.14,296275.27,179834.91,42209.9,335847.07
+2072,2023-10-15,Bulk Carrier,Coastal,Good,"Low Efficiency, High Cost",17.96,1.43,481118.16,622972.22,227052.79,0.0
+2073,2023-10-22,Bulk Carrier,Long-haul,Fair,Low Efficiency,17.32,0.16,314607.19,578994.64,60541.82,0.0
+2076,2023-11-12,Bulk Carrier,Transoceanic,Critical,Low Efficiency,19.77,0.19,339022.53,246452.34,84957.16,269229.65
+2077,2023-11-19,Fish Carrier,Transoceanic,Critical,Speed Deviation,10.58,0.8,311277.92,646231.11,57212.56,0.0
+2084,2024-01-07,Bulk Carrier,Unknown,Fair,Speed Deviation,10.1,0.75,84033.79,667957.23,-170031.58,0.0
+2086,2024-01-21,Bulk Carrier,Transoceanic,Good,Low Efficiency,22.97,1.47,143313.31,635177.19,-110752.06,0.0
+2088,2024-02-04,Container Ship,Transoceanic,Critical,Low Efficiency,16.83,0.17,338407.68,364598.7,84342.31,151083.29
+2090,2024-02-18,Container Ship,Long-haul,Critical,Low Efficiency,13.47,0.17,429946.1,926232.07,175880.74,0.0
+2093,2024-03-10,Fish Carrier,Long-haul,Good,"Low Efficiency, Speed Deviation",10.12,0.16,279928.46,948220.22,25863.09,0.0
+2097,2024-04-07,Tanker,Long-haul,Critical,Low Efficiency,19.18,1.49,97084.36,321577.7,-156981.01,194104.29
+2102,2024-05-12,Bulk Carrier,Coastal,Fair,High Cost,12.88,0.81,31234.63,512562.69,-222830.73,3119.29
+2107,2024-06-16,Container Ship,Coastal,Critical,Low Efficiency,14.23,0.17,365582.99,612500.47,111517.62,0.0
+2110,2023-06-04,Container Ship,Transoceanic,Critical,Low Efficiency,21.13,1.45,433615.1,630070.01,179549.73,0.0
+2113,2023-06-25,Bulk Carrier,Coastal,Fair,High Cost,12.21,0.5,17420.83,162718.24,-236644.53,352963.74
+2114,2023-07-02,Tanker,Unknown,Good,High Cost,22.41,1.21,30291.22,103514.48,-223774.15,412167.51
+2120,2023-08-13,Container Ship,Short-haul,Fair,Speed Deviation,11.01,1.37,186876.12,585509.54,-67189.25,0.0
+2123,2023-09-03,Bulk Carrier,Long-haul,Fair,Low Efficiency,12.1,1.49,110541.82,338860.94,-143523.55,176821.04
+2129,2023-10-15,Fish Carrier,Long-haul,Good,Low Efficiency,23.56,0.11,350518.71,225710.06,96453.34,289971.92
+2130,2023-10-22,Bulk Carrier,Transoceanic,Good,High Cost,20.32,1.15,38713.05,582850.03,-215352.31,0.0
+2135,2023-11-26,Bulk Carrier,Coastal,Fair,"High Cost, Speed Deviation",11.01,1.13,498862.22,123072.5,244796.85,392609.48
+2137,2023-12-10,Container Ship,Transoceanic,Critical,Speed Deviation,24.58,0.51,451062.45,389497.52,196997.09,126184.46
+2143,2024-01-21,Fish Carrier,Short-haul,Good,High Cost,13.72,1.33,472675.63,102150.74,218610.26,413531.24
+2144,2024-01-28,Tanker,Long-haul,Good,High Cost,22.01,1.05,33850.89,799141.83,-220214.47,0.0
+2146,2024-02-11,Tanker,Long-haul,Fair,Speed Deviation,10.27,0.21,393684.84,320152.6,139619.47,195529.38
+2153,2024-03-31,Fish Carrier,Transoceanic,Fair,Low Efficiency,13.96,1.44,367634.98,103695.02,113569.61,411986.96
+2157,2024-04-28,Fish Carrier,Transoceanic,Good,Speed Deviation,24.67,0.71,233310.57,848271.53,-20754.8,0.0
+2161,2024-05-26,Tanker,Coastal,Fair,High Cost,12.05,0.51,11088.96,78454.86,-242976.4,437227.12
+2162,2024-06-02,Container Ship,Unknown,Critical,"Low Efficiency, Speed Deviation",24.47,0.11,228294.98,954201.87,-25770.39,0.0
+2169,2023-06-18,Bulk Carrier,Short-haul,Good,Speed Deviation,24.65,1.23,183388.14,57278.38,-70677.23,458403.61
+2171,2023-07-02,Fish Carrier,Short-haul,Critical,High Cost,16.89,0.6,473442.01,287268.18,219376.64,228413.8
+2172,2023-07-09,Bulk Carrier,Transoceanic,Good,Speed Deviation,24.84,0.86,171068.47,439146.62,-82996.9,76535.36
+2173,2023-07-16,Tanker,Short-haul,Good,"Low Efficiency, Speed Deviation",10.84,0.14,206346.28,811089.22,-47719.08,0.0
+2174,2023-07-23,Fish Carrier,Short-haul,Critical,High Cost,16.92,0.93,472431.65,904734.86,218366.28,0.0
+2175,2023-07-30,Container Ship,Transoceanic,Good,Low Efficiency,13.14,0.11,144873.68,468150.07,-109191.69,47531.91
+2176,2023-08-06,Tanker,Long-haul,Fair,"Low Efficiency, Speed Deviation",10.11,1.41,387602.24,897534.06,133536.87,0.0
+2180,2023-09-03,Container Ship,Coastal,Good,Low Efficiency,11.81,0.11,230622.53,496496.92,-23442.84,19185.07
+2183,2023-09-24,Tanker,Short-haul,Fair,Low Efficiency,23.36,1.44,178844.47,349678.49,-75220.9,166003.49
+2185,2023-10-08,Fish Carrier,Long-haul,Good,Speed Deviation,10.07,0.2,415959.27,526492.16,161893.9,0.0
+2187,2023-10-22,Unknown,Transoceanic,Fair,Speed Deviation,10.24,1.06,447156.53,768403.56,193091.16,0.0
+2190,2023-11-12,Fish Carrier,Unknown,Critical,High Cost,21.84,0.75,33675.29,413945.35,-220390.07,101736.63
+2191,2023-11-19,Fish Carrier,Short-haul,Critical,Speed Deviation,24.69,0.93,315812.04,910183.52,61746.67,0.0
+2199,2024-01-14,Tanker,Transoceanic,Fair,Low Efficiency,16.7,1.45,405782.25,124853.65,151716.88,390828.34
+2201,2024-01-28,Fish Carrier,Unknown,Fair,Low Efficiency,18.07,1.46,162909.71,82268.74,-91155.66,433413.24
+2206,2024-03-03,Bulk Carrier,Transoceanic,Good,Speed Deviation,10.98,0.97,187241.12,598756.72,-66824.25,0.0
+2211,2024-04-07,Container Ship,Short-haul,Fair,Speed Deviation,10.26,1.32,353963.29,338758.44,99897.93,176923.54
+2214,2024-04-28,Container Ship,Coastal,Critical,High Cost,19.5,1.04,38217.49,385973.84,-215847.88,129708.14
+2216,2024-05-12,Fish Carrier,Unknown,Unknown,High Cost,18.82,0.65,494448.78,567175.28,240383.42,0.0
+2223,2024-06-30,Container Ship,Short-haul,Critical,Low Efficiency,21.52,0.12,413829.81,700837.91,159764.44,0.0
+2224,2023-06-04,Unknown,Short-haul,Good,Low Efficiency,15.22,1.49,175624.97,639257.69,-78440.39,0.0
+2226,2023-06-18,Container Ship,Short-haul,Good,Low Efficiency,12.31,0.14,111801.79,753823.84,-142263.58,0.0
+2232,2023-07-30,Bulk Carrier,Short-haul,Fair,High Cost,17.32,0.33,468848.85,494748.43,214783.48,20933.55
+2233,2023-08-06,Container Ship,Short-haul,Fair,Speed Deviation,10.59,0.37,105783.14,899809.42,-148282.23,0.0
+2235,2023-08-20,Container Ship,Short-haul,Fair,High Cost,13.97,1.09,497226.74,810295.09,243161.37,0.0
+2244,2023-10-22,Tanker,Short-haul,Fair,High Cost,23.46,0.98,16974.19,149841.13,-237091.18,365840.85
+2246,2023-11-05,Bulk Carrier,Coastal,Critical,Speed Deviation,10.01,1.23,87697.59,189647.03,-166367.77,326034.95
+2247,2023-11-12,Bulk Carrier,Short-haul,Fair,High Cost,11.98,0.99,31192.73,966636.66,-222872.64,0.0
+2248,2023-11-19,Container Ship,Short-haul,Good,Speed Deviation,24.19,0.26,364753.67,825120.94,110688.3,0.0
+2249,2023-11-26,Tanker,Long-haul,Fair,High Cost,12.72,0.68,36285.49,569911.04,-217779.88,0.0
+2250,2023-12-03,Fish Carrier,Transoceanic,Good,Low Efficiency,16.73,1.46,148966.83,473168.13,-105098.54,42513.85
+2251,2023-12-10,Tanker,Long-haul,Critical,Speed Deviation,10.63,0.56,366480.31,650072.07,112414.94,0.0
+2253,2023-12-24,Fish Carrier,Coastal,Fair,Speed Deviation,24.35,0.49,173646.27,374978.4,-80419.1,140703.58
+2254,2023-12-31,Bulk Carrier,Transoceanic,Critical,"Low Efficiency, High Cost",19.67,1.48,495407.13,211495.8,241341.76,304186.18
+2255,2024-01-07,Container Ship,Long-haul,Critical,Low Efficiency,20.26,0.13,168312.04,786991.19,-85753.33,0.0
+2256,2024-01-14,Fish Carrier,Long-haul,Fair,Speed Deviation,10.85,0.72,289642.66,304323.15,35577.29,211358.83
+2261,2024-02-18,Fish Carrier,Transoceanic,Good,Speed Deviation,24.67,1.21,331456.79,668959.95,77391.43,0.0
+2267,2024-03-31,Tanker,Short-haul,Good,High Cost,14.84,1.27,475292.67,794693.33,221227.3,0.0
+2268,2024-04-07,Tanker,Short-haul,Fair,"Low Efficiency, Speed Deviation",24.78,1.47,123127.95,974274.86,-130937.42,0.0
+2271,2024-04-28,Container Ship,Long-haul,Critical,Low Efficiency,20.53,0.18,453238.35,323126.47,199172.98,192555.51
+2272,2024-05-05,Bulk Carrier,Coastal,Fair,Low Efficiency,18.0,0.15,213893.28,970333.22,-40172.08,0.0
+2273,2024-05-12,Tanker,Short-haul,Critical,Speed Deviation,10.55,0.51,202699.91,405543.02,-51365.46,110138.96
+2274,2024-05-19,Fish Carrier,Long-haul,Critical,Speed Deviation,10.96,0.3,180570.15,254562.27,-73495.22,261119.71
+2276,2024-06-02,Bulk Carrier,Transoceanic,Unknown,High Cost,12.56,1.33,31928.73,251264.06,-222136.64,264417.92
+2280,2024-06-30,Bulk Carrier,Short-haul,Critical,Low Efficiency,15.56,1.48,115010.11,357867.17,-139055.26,157814.82
+2287,2023-07-16,Tanker,Unknown,Critical,Low Efficiency,12.17,1.49,341022.64,840792.81,86957.28,0.0
+2288,2023-07-23,Fish Carrier,Short-haul,Critical,High Cost,12.51,1.22,479113.57,50831.11,225048.2,464850.87
+2289,2023-07-30,Fish Carrier,Unknown,Fair,High Cost,12.4,1.16,40045.42,832329.37,-214019.95,0.0
+2290,2023-08-06,Bulk Carrier,Coastal,Good,"High Cost, Speed Deviation",10.35,0.37,486456.4,463211.63,232391.03,52470.36
+2292,2023-08-20,Fish Carrier,Long-haul,Fair,Speed Deviation,10.5,0.29,142775.45,214334.52,-111289.92,301347.46
+2304,2023-11-12,Container Ship,Long-haul,Critical,Speed Deviation,24.73,1.0,173599.22,903600.99,-80466.15,0.0
+2305,2023-11-19,Fish Carrier,Transoceanic,Critical,Low Efficiency,22.23,1.44,302747.67,970001.54,48682.3,0.0
+2312,2024-01-07,Tanker,Coastal,Critical,Low Efficiency,23.68,1.41,319827.78,150273.03,65762.42,365408.95
+2313,2024-01-14,Fish Carrier,Short-haul,Fair,Low Efficiency,20.86,0.15,137397.01,392245.98,-116668.35,123436.0
+2317,2024-02-11,Bulk Carrier,Long-haul,Critical,Speed Deviation,10.53,1.1,361393.02,729708.53,107327.65,0.0
+2320,2024-03-03,Unknown,Short-haul,Good,Speed Deviation,10.1,0.3,51555.47,815633.12,-202509.9,0.0
+2326,2024-04-14,Container Ship,Transoceanic,Critical,Speed Deviation,10.84,0.73,400863.21,478239.64,146797.84,37442.34
+2327,2024-04-21,Fish Carrier,Coastal,Good,High Cost,23.97,1.27,470514.33,740628.81,216448.96,0.0
+2329,2024-05-05,Bulk Carrier,Long-haul,Fair,Speed Deviation,10.03,0.32,432756.62,673115.85,178691.25,0.0
+2331,2024-05-19,Fish Carrier,Transoceanic,Critical,Speed Deviation,24.6,1.39,93785.01,695154.04,-160280.36,0.0
+2333,2024-06-02,Bulk Carrier,Transoceanic,Good,Speed Deviation,10.29,1.05,301917.47,575642.9,47852.11,0.0
+2336,2024-06-23,Tanker,Coastal,Critical,Speed Deviation,10.17,0.59,111715.58,967219.74,-142349.79,0.0
+2337,2024-06-30,Bulk Carrier,Short-haul,Critical,"Low Efficiency, Speed Deviation",24.61,1.44,180715.25,615039.43,-73350.12,0.0
+2339,2023-06-11,Fish Carrier,Long-haul,Fair,Speed Deviation,10.41,1.39,434247.5,404521.68,180182.13,111160.3
+2343,2023-07-09,Fish Carrier,Long-haul,Good,High Cost,14.1,0.65,16896.6,705857.67,-237168.76,0.0
+2345,2023-07-23,Tanker,Coastal,Fair,High Cost,15.58,1.39,482942.39,836943.23,228877.02,0.0
+2348,2023-08-13,Tanker,Coastal,Good,Speed Deviation,10.12,0.68,232549.18,713939.86,-21516.19,0.0
+2350,2023-08-27,Bulk Carrier,Coastal,Fair,"Low Efficiency, High Cost",13.05,0.14,36396.64,982623.39,-217668.73,0.0
+2352,2023-09-10,Container Ship,Transoceanic,Fair,"Low Efficiency, High Cost, Speed Deviation",11.1,0.15,472931.05,880560.66,218865.69,0.0
+2353,2023-09-17,Fish Carrier,Long-haul,Fair,Speed Deviation,24.92,1.23,162285.7,409840.69,-91779.66,105841.29
+2356,2023-10-08,Tanker,Coastal,Critical,Low Efficiency,19.63,1.46,224165.19,151299.88,-29900.18,364382.1
+2357,2023-10-15,Container Ship,Long-haul,Fair,"High Cost, Speed Deviation",10.91,0.51,498671.11,355197.0,244605.74,160484.98
+2359,2023-10-29,Tanker,Coastal,Good,High Cost,21.89,0.57,479425.0,448795.44,225359.64,66886.54
+2360,2023-11-05,Bulk Carrier,Unknown,Good,Low Efficiency,16.84,1.42,110589.82,933553.83,-143475.55,0.0
+2362,2023-11-19,Bulk Carrier,Long-haul,Fair,High Cost,22.54,1.24,466600.96,558931.98,212535.6,0.0
+2363,2023-11-26,Container Ship,Coastal,Good,Speed Deviation,10.26,1.4,250151.6,736912.73,-3913.77,0.0
+2367,2023-12-24,Fish Carrier,Coastal,Fair,Low Efficiency,23.27,0.17,228545.9,718133.25,-25519.47,0.0
+2370,2024-01-14,Container Ship,Short-haul,Good,Low Efficiency,21.38,0.18,295188.42,815405.1,41123.06,0.0
+2371,2024-01-21,Tanker,Coastal,Good,Low Efficiency,19.38,1.43,360630.37,126007.65,106565.0,389674.33
+2372,2024-01-28,Tanker,Transoceanic,Critical,Speed Deviation,24.76,1.24,292426.81,410142.09,38361.44,105539.89
+2374,2024-02-11,Bulk Carrier,Long-haul,Fair,Low Efficiency,12.66,0.18,294742.8,410810.87,40677.43,104871.12
+2375,2024-02-18,Container Ship,Transoceanic,Critical,Speed Deviation,24.22,0.51,70397.2,138982.02,-183668.17,376699.96
+2380,2024-03-24,Tanker,Coastal,Good,Low Efficiency,18.45,1.44,403746.22,601845.49,149680.85,0.0
+2382,2024-04-07,Bulk Carrier,Short-haul,Good,Speed Deviation,10.52,0.35,391606.36,589273.44,137541.0,0.0
+2383,2024-04-14,Tanker,Short-haul,Good,High Cost,15.56,0.31,480471.27,230372.12,226405.9,285309.86
+2384,2024-04-21,Container Ship,Coastal,Critical,"Low Efficiency, High Cost",20.55,1.49,480321.07,886786.79,226255.7,0.0
+2386,2024-05-05,Bulk Carrier,Short-haul,Fair,Low Efficiency,15.16,1.42,44781.33,930953.96,-209284.04,0.0
+2387,2024-05-12,Bulk Carrier,Coastal,Fair,Low Efficiency,19.47,0.12,113025.82,328727.22,-141039.55,186954.76
+2393,2024-06-23,Fish Carrier,Long-haul,Fair,Low Efficiency,11.73,0.19,143488.83,289886.76,-110576.53,225795.22
+2395,2023-06-04,Fish Carrier,Coastal,Critical,Speed Deviation,24.16,0.69,360548.07,104616.3,106482.7,411065.68
+2399,2023-07-02,Unknown,Short-haul,Good,Speed Deviation,24.94,0.86,409670.1,88263.83,155604.73,427418.15
+2401,2023-07-16,Fish Carrier,Transoceanic,Good,Speed Deviation,10.1,1.15,383434.73,464474.06,129369.36,51207.92
+2403,2023-07-30,Fish Carrier,Short-haul,Fair,"Low Efficiency, Speed Deviation",10.05,0.13,69565.53,469547.01,-184499.84,46134.97
+2404,2023-08-06,Tanker,Coastal,Critical,"Low Efficiency, High Cost",17.31,0.18,25984.03,316216.4,-228081.34,199465.58
+2406,2023-08-20,Bulk Carrier,Transoceanic,Fair,Low Efficiency,23.44,1.41,444367.73,336557.25,190302.36,179124.73
+2409,2023-09-10,Bulk Carrier,Short-haul,Good,Low Efficiency,22.34,1.48,301994.94,635813.17,47929.57,0.0
+2410,2023-09-17,Bulk Carrier,Short-haul,Fair,High Cost,11.89,0.23,475556.15,755298.83,221490.78,0.0
+2411,2023-09-24,Tanker,Long-haul,Fair,Speed Deviation,10.66,0.4,423526.59,456317.88,169461.23,59364.1
+2412,2023-10-01,Bulk Carrier,Short-haul,Good,Speed Deviation,24.33,0.95,252361.17,853301.3,-1704.19,0.0
+2415,2023-10-22,Tanker,Long-haul,Critical,"Low Efficiency, Speed Deviation",24.19,0.13,187565.31,307154.18,-66500.06,208527.8
+2416,2023-10-29,Tanker,Long-haul,Good,Low Efficiency,23.31,0.16,173499.9,279803.24,-80565.47,235878.74
+2417,2023-11-05,Bulk Carrier,Transoceanic,Unknown,Speed Deviation,10.56,0.9,245436.49,447222.96,-8628.87,68459.02
+2419,2023-11-19,Bulk Carrier,Coastal,Critical,"High Cost, Speed Deviation",24.15,1.13,493080.99,415259.25,239015.62,100422.73
+2421,2023-12-03,Tanker,Short-haul,Critical,Speed Deviation,10.71,0.74,384338.53,407299.55,130273.16,108382.43
+2424,2023-12-24,Fish Carrier,Long-haul,Fair,High Cost,18.84,0.83,494350.18,794569.74,240284.81,0.0
+2427,2024-01-14,Fish Carrier,Short-haul,Critical,High Cost,16.01,0.86,485689.34,587110.03,231623.97,0.0
+2428,2024-01-21,Fish Carrier,Coastal,Good,Low Efficiency,18.87,0.1,126703.82,406091.14,-127361.54,109590.84
+2429,2024-01-28,Container Ship,Long-haul,Fair,Low Efficiency,15.87,1.48,55454.34,808969.48,-198611.03,0.0
+2431,2024-02-11,Tanker,Coastal,Critical,Low Efficiency,19.62,0.1,270217.57,994904.8,16152.2,0.0
+2432,2024-02-18,Tanker,Long-haul,Critical,Speed Deviation,24.98,0.2,443283.58,638170.04,189218.21,0.0
+2441,2024-04-21,Bulk Carrier,Coastal,Fair,Speed Deviation,24.09,0.41,46821.26,628920.74,-207244.1,0.0
+2442,2024-04-28,Container Ship,Long-haul,Unknown,High Cost,18.84,1.12,498593.79,317333.4,244528.42,198348.59
+2443,2024-05-05,Fish Carrier,Transoceanic,Good,High Cost,18.53,0.58,35801.34,712997.28,-218264.03,0.0
+2444,2024-05-12,Tanker,Coastal,Critical,Speed Deviation,10.47,1.01,162064.04,580082.78,-92001.33,0.0
+2446,2024-05-26,Bulk Carrier,Short-haul,Critical,Low Efficiency,21.06,1.41,347077.79,487714.34,93012.42,27967.64
+2447,2024-06-02,Container Ship,Short-haul,Good,"Low Efficiency, High Cost",11.72,1.48,495368.78,136146.24,241303.41,379535.75
+2454,2023-06-18,Fish Carrier,Long-haul,Fair,Speed Deviation,10.06,0.49,196759.29,713409.86,-57306.07,0.0
+2458,2023-07-16,Fish Carrier,Transoceanic,Critical,Speed Deviation,24.37,1.4,58558.41,383197.23,-195506.96,132484.75
+2461,2023-08-06,Tanker,Long-haul,Critical,Speed Deviation,10.98,0.98,318023.61,912208.71,63958.24,0.0
+2462,2023-08-13,Tanker,Long-haul,Unknown,Low Efficiency,23.7,0.15,305087.19,615553.66,51021.82,0.0
+2464,2023-08-27,Bulk Carrier,Short-haul,Fair,Low Efficiency,16.56,1.45,281966.8,212280.62,27901.43,303401.36
+2465,2023-09-03,Bulk Carrier,Long-haul,Fair,Speed Deviation,24.87,0.28,74156.02,944547.45,-179909.35,0.0
+2469,2023-10-01,Container Ship,Short-haul,Critical,Speed Deviation,24.19,0.7,407643.2,678229.63,153577.83,0.0
+2471,2023-10-15,Fish Carrier,Short-haul,Fair,High Cost,17.65,1.37,475597.77,705330.48,221532.4,0.0
+2472,2023-10-22,Fish Carrier,Transoceanic,Critical,"Low Efficiency, High Cost, Speed Deviation",24.19,0.19,489088.15,822316.44,235022.78,0.0
+2473,2023-10-29,Bulk Carrier,Coastal,Fair,Speed Deviation,24.57,0.99,324852.01,953214.01,70786.64,0.0
+2474,2023-11-05,Container Ship,Short-haul,Fair,High Cost,13.36,0.35,14746.89,859055.01,-239318.48,0.0
+2476,2023-11-19,Container Ship,Long-haul,Critical,Speed Deviation,10.89,0.56,301228.21,558700.01,47162.84,0.0
+2479,2023-12-10,Container Ship,Coastal,Good,Speed Deviation,24.9,0.26,246531.91,950980.82,-7533.46,0.0
+2480,2023-12-17,Container Ship,Short-haul,Critical,Low Efficiency,18.11,1.46,276259.29,955201.86,22193.92,0.0
+2484,2024-01-14,Bulk Carrier,Transoceanic,Fair,High Cost,21.01,0.49,496120.22,418789.87,242054.85,96892.12
+2490,2024-02-25,Fish Carrier,Coastal,Critical,High Cost,16.25,0.32,39651.86,617699.86,-214413.5,0.0
+2494,2024-03-24,Container Ship,Short-haul,Fair,Low Efficiency,19.57,0.19,141912.19,532057.63,-112153.17,0.0
+2506,2024-06-16,Fish Carrier,Coastal,Fair,Speed Deviation,24.97,0.69,195459.22,243510.57,-58606.15,272171.41
+2510,2023-06-11,Fish Carrier,Short-haul,Fair,Speed Deviation,24.42,0.77,432672.04,664403.18,178606.67,0.0
+2511,2023-06-18,Tanker,Short-haul,Fair,"Low Efficiency, High Cost",23.88,0.17,25946.98,189200.69,-228118.39,326481.3
+2514,2023-07-09,Tanker,Transoceanic,Critical,"Low Efficiency, High Cost",20.43,1.42,476258.07,505000.4,222192.7,10681.58
+2516,2023-07-23,Fish Carrier,Coastal,Good,High Cost,21.3,1.06,18059.41,305292.54,-236005.95,210389.44
+2518,2023-08-06,Bulk Carrier,Unknown,Fair,Speed Deviation,24.97,1.12,356550.49,336668.37,102485.12,179013.61
+2520,2023-08-20,Tanker,Coastal,Fair,Speed Deviation,10.83,1.13,107221.47,660072.82,-146843.9,0.0
+2523,2023-09-10,Bulk Carrier,Coastal,Critical,"Low Efficiency, High Cost",12.18,1.42,469121.87,708437.38,215056.5,0.0
+2534,2023-11-26,Fish Carrier,Coastal,Critical,Speed Deviation,11.0,1.3,422037.84,498931.76,167972.47,16750.22
+2535,2023-12-03,Container Ship,Transoceanic,Good,Speed Deviation,24.92,0.53,342920.78,862881.48,88855.41,0.0
+2536,2023-12-10,Fish Carrier,Coastal,Fair,"Low Efficiency, Speed Deviation",10.79,0.12,357156.46,223132.63,103091.09,292549.35
+2538,2023-12-24,Fish Carrier,Long-haul,Critical,Low Efficiency,11.86,0.11,293070.46,549636.06,39005.1,0.0
+2548,2024-03-03,Tanker,Long-haul,Fair,Low Efficiency,20.3,0.19,368724.6,452160.89,114659.23,63521.09
+2555,2024-04-21,Tanker,Long-haul,Critical,Speed Deviation,10.53,0.48,241979.35,870158.66,-12086.02,0.0
+2560,2024-05-26,Container Ship,Transoceanic,Good,"Low Efficiency, Speed Deviation",24.77,1.47,319066.94,384917.83,65001.58,130764.16
+2562,2024-06-09,Tanker,Long-haul,Fair,Speed Deviation,11.09,0.65,68205.57,363539.74,-185859.79,152142.25
+2563,2024-06-16,Container Ship,Long-haul,Critical,"Low Efficiency, High Cost, Speed Deviation",10.39,1.49,35362.11,562472.18,-218703.26,0.0
+2572,2023-07-16,Unknown,Short-haul,Critical,Low Efficiency,12.04,1.43,308074.61,648018.09,54009.24,0.0
+2573,2023-07-23,Tanker,Coastal,Critical,Low Efficiency,18.11,0.12,343552.42,363766.58,89487.05,151915.4
+2574,2023-07-30,Bulk Carrier,Long-haul,Fair,Speed Deviation,24.49,1.38,273120.72,546034.42,19055.36,0.0
+2575,2023-08-06,Tanker,Coastal,Critical,Speed Deviation,11.03,0.67,339484.09,929417.27,85418.73,0.0
+2576,2023-08-13,Bulk Carrier,Long-haul,Fair,High Cost,21.64,0.21,15129.91,334299.19,-238935.46,181382.79
+2582,2023-09-24,Tanker,Long-haul,Fair,Low Efficiency,13.25,1.44,282557.45,950493.06,28492.08,0.0
+2584,2023-10-08,Fish Carrier,Long-haul,Critical,Speed Deviation,10.78,1.18,270343.87,79557.1,16278.5,436124.89
+2587,2023-10-29,Bulk Carrier,Short-haul,Critical,Speed Deviation,10.72,0.27,279933.36,134939.92,25867.99,380742.06
+2591,2023-11-26,Container Ship,Coastal,Critical,Speed Deviation,24.34,0.42,110616.36,866056.92,-143449.01,0.0
+2593,2023-12-10,Container Ship,Unknown,Critical,"High Cost, Speed Deviation",10.99,1.4,473406.67,623350.35,219341.3,0.0
+2597,2024-01-07,Bulk Carrier,Transoceanic,Good,High Cost,15.54,0.61,485012.1,584406.21,230946.73,0.0
+2600,2024-01-28,Bulk Carrier,Transoceanic,Fair,Speed Deviation,10.48,0.82,454163.24,194358.79,200097.87,321323.19
+2601,2024-02-04,Tanker,Coastal,Good,"Low Efficiency, Speed Deviation",10.87,0.12,368712.18,292696.32,114646.81,222985.66
+2603,2024-02-18,Container Ship,Coastal,Critical,High Cost,16.14,0.99,35242.57,139908.47,-218822.8,375773.51
+2608,2024-03-24,Container Ship,Long-haul,Critical,Low Efficiency,14.68,1.41,190490.7,763766.92,-63574.67,0.0
+2610,2024-04-07,Bulk Carrier,Transoceanic,Critical,High Cost,13.19,1.12,12548.28,413466.33,-241517.08,102215.65
+2611,2024-04-14,Tanker,Long-haul,Critical,High Cost,23.04,1.21,482001.78,115274.73,227936.41,400407.25
+2621,2024-06-23,Tanker,Short-haul,Good,Speed Deviation,10.67,0.8,202270.84,941101.0,-51794.53,0.0
+2626,2023-06-25,Tanker,Transoceanic,Critical,High Cost,12.38,0.56,16753.45,256812.57,-237311.92,258869.41
+2632,2023-08-06,Fish Carrier,Transoceanic,Good,Low Efficiency,15.84,1.42,387935.53,544990.65,133870.16,0.0
+2636,2023-09-03,Tanker,Coastal,Critical,"Low Efficiency, Speed Deviation",24.67,1.48,233910.82,142079.89,-20154.55,373602.1
+2638,2023-09-17,Fish Carrier,Unknown,Good,Speed Deviation,24.66,1.32,154493.02,329000.34,-99572.34,186681.64
+2639,2023-09-24,Tanker,Coastal,Good,High Cost,16.82,0.47,31988.59,93852.19,-222076.77,421829.79
+2643,2023-10-22,Container Ship,Transoceanic,Good,Speed Deviation,24.16,1.31,401539.1,487663.96,147473.74,28018.02
+2645,2023-11-05,Bulk Carrier,Coastal,Critical,Low Efficiency,22.94,0.16,63565.16,688660.1,-190500.2,0.0
+2646,2023-11-12,Tanker,Short-haul,Good,High Cost,14.75,0.81,487488.08,857665.22,233422.71,0.0
+2648,2023-11-26,Unknown,Transoceanic,Fair,High Cost,16.13,0.41,34471.44,913592.43,-219593.93,0.0
+2650,2023-12-10,Fish Carrier,Long-haul,Fair,Low Efficiency,17.89,0.15,416557.66,574223.07,162492.3,0.0
+2652,2023-12-24,Container Ship,Long-haul,Good,Low Efficiency,21.53,0.11,388595.17,634280.79,134529.8,0.0
+2658,2024-02-04,Tanker,Coastal,Good,Low Efficiency,12.94,0.11,350670.24,266394.18,96604.87,249287.8
+2660,2024-02-18,Bulk Carrier,Transoceanic,Good,Low Efficiency,16.23,0.18,44777.88,392587.12,-209287.49,123094.86
+2662,2024-03-03,Fish Carrier,Transoceanic,Fair,Low Efficiency,22.69,1.45,368815.2,283375.39,114749.84,232306.59
+2664,2024-03-17,Bulk Carrier,Long-haul,Fair,Speed Deviation,11.08,0.53,257106.71,287696.35,3041.35,227985.63
+2665,2024-03-24,Container Ship,Transoceanic,Fair,Speed Deviation,10.43,1.25,206938.33,133876.47,-47127.03,381805.51
+2669,2024-04-21,Tanker,Coastal,Critical,Speed Deviation,10.23,0.5,164263.62,110496.89,-89801.75,405185.09
+2673,2024-05-19,Container Ship,Long-haul,Critical,Speed Deviation,24.16,0.27,198415.62,432017.35,-55649.75,83664.63
+2676,2024-06-09,Tanker,Transoceanic,Fair,Speed Deviation,10.94,0.79,347864.63,271317.72,93799.26,244364.26
+2684,2023-07-02,Bulk Carrier,Coastal,Good,Low Efficiency,21.51,1.42,257551.41,391417.22,3486.04,124264.76
+2686,2023-07-16,Fish Carrier,Long-haul,Unknown,High Cost,20.29,0.8,17125.74,110314.8,-236939.63,405367.18
+2691,2023-08-20,Container Ship,Long-haul,Good,High Cost,20.83,0.61,485078.05,199202.43,231012.69,316479.55
+2693,2023-09-03,Container Ship,Coastal,Critical,"Low Efficiency, High Cost",21.98,0.12,33603.76,522838.01,-220461.6,0.0
+2695,2023-09-17,Fish Carrier,Transoceanic,Fair,High Cost,17.78,0.7,497508.35,711034.95,243442.98,0.0
+2699,2023-10-15,Bulk Carrier,Coastal,Critical,Low Efficiency,15.02,1.47,290652.41,267988.86,36587.04,247693.12
+2704,2023-11-19,Bulk Carrier,Short-haul,Critical,Speed Deviation,10.39,0.63,300108.79,706256.32,46043.42,0.0
+2710,2023-12-31,Bulk Carrier,Transoceanic,Good,"Low Efficiency, Speed Deviation",24.35,1.44,56168.29,679108.95,-197897.08,0.0
+2711,2024-01-07,Unknown,Transoceanic,Fair,High Cost,23.7,0.95,481787.95,945894.94,227722.58,0.0
+2719,2024-03-03,Tanker,Long-haul,Fair,Speed Deviation,24.92,0.73,417607.07,857920.66,163541.7,0.0
+2721,2024-03-17,Bulk Carrier,Short-haul,Fair,"High Cost, Speed Deviation",24.19,1.38,28812.32,923262.18,-225253.05,0.0
+2724,2024-04-07,Tanker,Transoceanic,Fair,Speed Deviation,24.63,0.94,154350.91,972001.81,-99714.46,0.0
+2725,2024-04-14,Fish Carrier,Coastal,Good,High Cost,17.8,0.95,476657.34,263000.34,222591.97,252681.64
+2727,2024-04-28,Fish Carrier,Coastal,Critical,Speed Deviation,11.03,0.82,308153.45,986482.41,54088.08,0.0
+2728,2024-05-05,Fish Carrier,Transoceanic,Good,High Cost,17.24,0.89,10189.0,297707.74,-243876.36,217974.24
+2730,2024-05-19,Container Ship,Long-haul,Good,Speed Deviation,24.26,0.71,266359.22,820652.04,12293.86,0.0
+2733,2024-06-09,Bulk Carrier,Short-haul,Good,High Cost,13.85,0.65,21029.02,374365.37,-233036.35,141316.61
+2735,2024-06-23,Tanker,Transoceanic,Good,High Cost,23.13,0.9,25241.55,799713.74,-228823.82,0.0
